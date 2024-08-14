@@ -21,6 +21,11 @@ Al igual decidi seguir con este por la facilidad de usar la base anterior de los
 
 ![image](https://github.com/user-attachments/assets/b2978a4b-5bf0-4092-a468-13b054543c06)
 
+### Creacion Cono de aire (Despues de clase)
+Es el pequeño cono que se va aplastando y van saliendo mas, este efecto no alcance a montarlo en clase pero aun asi despues de salir decidi subirlo, entre las 8:50 y 9:00 am. Para este hice algo parecido al floor waves pero esta vez tuve que exportar un cono del blender para que sea una mesh personalizada y ademas cambiaba el tamaño de sus ejes separados en el tiempo.
+
+![image](https://github.com/user-attachments/assets/639b3be3-2954-4934-8761-b17904e4ea79)
+
 ### Creacion del Tornado Exterior
 Y por ultimo pero no menos importante decidi realizar el tornado, el cual requeria segun mi valoracion, un mesh personalizado, y generar una rotacion overlifetime. Al igual que aplicar emisiones parecidas 
 a la particula estatica. Simplemente era cuestion de ajustar los efectos visuales y su tamaño.
@@ -35,6 +40,11 @@ Use literalmente el mismo tornado pero con un material con un color diferente, c
 ### Resultado Final
 
 ![GifTornado](https://github.com/user-attachments/assets/b212bc4b-d6f6-471a-8759-24f6d406574d)
+
+### Resultado Final Con Ajustes despues de Clase
+Aqui esta incluida la creacion del cono de aire y tambien ajuste los valores de los stripes para que se ajustaran mejor al tornado y fuera mas bonito visualmente.
+
+![GifTornad_PostAjustes](https://github.com/user-attachments/assets/97fed185-0ecd-4db7-b0d9-8b742c282d4c)
 
 ## Evidencia de Assets usados
 ### Materiales
