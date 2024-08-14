@@ -1,4 +1,4 @@
-![GifTornado](https://github.com/user-attachments/assets/3a067e62-c054-4232-9dd2-16725bafa43f)# ComputacionGrafica
+# ComputacionGrafica
 
 ## Parcial 1 Tornado
 ### Creacion de Static Light
