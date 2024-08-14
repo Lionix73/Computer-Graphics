@@ -1,4 +1,4 @@
-# ComputacionGrafica
+![GifTornado](https://github.com/user-attachments/assets/3a067e62-c054-4232-9dd2-16725bafa43f)# ComputacionGrafica
 
 ## Parcial 1 Tornado
 ### Creacion de Static Light
@@ -31,6 +31,10 @@ a la particula estatica. Simplemente era cuestion de ajustar los efectos visuale
 Use literalmente el mismo tornado pero con un material con un color diferente, cambie la transparencia del efecto y lo reescale individualmente cada eje en el unity para que fuera mas delgado.
 
 ![image](https://github.com/user-attachments/assets/2614df9d-8448-4031-a78f-e6ec2346ff1f)
+
+### Resultado Final
+
+![GifTornado](https://github.com/user-attachments/assets/b212bc4b-d6f6-471a-8759-24f6d406574d)
 
 ## Evidencia de Assets usados
 ### Materiales
