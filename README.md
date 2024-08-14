@@ -35,7 +35,7 @@ a la particula estatica. Simplemente era cuestion de ajustar los efectos visuale
 ### Creacion del Tornado Interior
 Use literalmente el mismo tornado pero con un material con un color diferente, cambie la transparencia del efecto y lo reescale individualmente cada eje en el unity para que fuera mas delgado.
 
-![image](https://github.com/user-attachments/assets/2614df9d-8448-4031-a78f-e6ec2346ff1f)
+![image](https://github.com/user-attachments/assets/c73358ab-1f6e-4514-bd58-fce948c1e300)
 
 ### Resultado Final
 
