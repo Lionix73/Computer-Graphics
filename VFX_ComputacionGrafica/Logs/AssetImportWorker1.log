@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57932
+64322
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11144] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 2057928295 [EditorId] 2057928295 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26728] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 2459386976 [EditorId] 2459386976 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11144] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 2057928295 [EditorId] 2057928295 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26728] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 2459386976 [EditorId] 2459386976 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 22.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008429 seconds.
-- Loaded All Assemblies, in  0.703 seconds
+Registered in 0.008535 seconds.
+- Loaded All Assemblies, in  0.453 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.274 seconds
-Domain Reload Profiling: 976ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (406ms)
-		LoadAssemblies (176ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (164ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (403ms)
-			TypeCache.Refresh (401ms)
-				TypeCache.ScanAssembly (384ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (142ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (275ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (335ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (220ms)
+		SetupLoadedEditorAssemblies (266ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 976ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.039 seconds
-Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 10.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 1862ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1708ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (707ms)
-		LoadAssemblies (599ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (511ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (181ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (829ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (742ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (616ms)
+		SetupLoadedEditorAssemblies (534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (430ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4933 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (352.4 KB). Loaded Objects now: 5393.
-Memory consumption went from 277.0 MB to 276.6 MB.
-Total: 3.936000 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.152500 ms MarkObjects: 3.019500 ms  DeleteObjects: 0.372100 ms)
+Unloading 4934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (351.8 KB). Loaded Objects now: 5394.
+Memory consumption went from 277.4 MB to 277.1 MB.
+Total: 7.227700 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.162400 ms MarkObjects: 5.965200 ms  DeleteObjects: 0.600800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,121 +180,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1671353.640297 seconds.
-  path: Assets/Scenes/VFX5.unity
-  artifactKey: Guid(b2d7661f7464fa14c84f94d19c64935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX5.unity using Guid(b2d7661f7464fa14c84f94d19c64935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a955f967ba69591952067daf1e7f17') in 0.007219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 90.700872 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/Shader Graphs_MarioKartPickup_BackFace.mat
+  Time since last request: 1680561.637874 seconds.
+  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
   artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6fc94469440b4a31ea11a05709b0ec') in 0.780001 seconds
+Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03bd13ef47174819fa9403546661382') in 0.378715 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 164.302946 seconds.
-  path: Assets/Material/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952a061f47f93264e59b28853f581020') in 0.200981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 676.850660 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e092ff83541fcbf48fe02ddbf78572') in 0.074569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 220.978104 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ebef7bb5700e154c183e972bd64a56') in 0.197822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 31.951302 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af732745bed63d558079385524dd52ed') in 0.024338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 580.736733 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a380343d40febe0510c5e2c8dc8d5b3a') in 0.202348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1378.365926 seconds.
-  path: Assets/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733acff6f8a2aa94bf68af8bc77233b') in 0.035506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 279.740344 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764c5ea3b50671380866b26de84c146e') in 0.791061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 9.179789 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856efc790490cd6a291879881eaf7702') in 0.626187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 575.302586 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a56cda344b5175a1ff301af720ca7d') in 0.524598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 142.850337 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f157841765ae6761cb75300030651aed') in 0.268871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 227.898097 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991e312ea0838aa86d69997264b94644') in 0.510594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 23.880583 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8f7cc0572b2a3e0cbb58c4dabae5d4') in 0.024449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 669.224537 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef154b51094f9dba917b84c40aa274d9') in 0.618061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 6

@@ -80,5 +80,5 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _CircleParams: {r: 0.7, g: 0.3, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.15686275}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_BuildTextureStacks: []

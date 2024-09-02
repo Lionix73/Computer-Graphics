@@ -36,7 +36,6 @@ Material:
     - _Cull: 1
     m_Colors:
     - _CircleParams: {r: 0.7, g: 0.3, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5150491852707841632
 MonoBehaviour:

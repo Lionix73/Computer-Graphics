@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57932
+64322
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16008] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3520159250 [EditorId] 3520159250 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31972] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 1572171111 [EditorId] 1572171111 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16008] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3520159250 [EditorId] 3520159250 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31972] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 1572171111 [EditorId] 1572171111 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 22.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007958 seconds.
-- Loaded All Assemblies, in  0.700 seconds
+Registered in 0.007613 seconds.
+- Loaded All Assemblies, in  0.450 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.276 seconds
-Domain Reload Profiling: 976ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (164ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (400ms)
-			TypeCache.Refresh (398ms)
-				TypeCache.ScanAssembly (384ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (277ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (221ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 976ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.040 seconds
-Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.968 seconds
+Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 1864ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (707ms)
-		LoadAssemblies (601ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (180ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (828ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (740ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
+		SetupLoadedEditorAssemblies (541ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (431ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4933 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (352.2 KB). Loaded Objects now: 5393.
-Memory consumption went from 276.9 MB to 276.6 MB.
-Total: 4.109500 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.636100 ms  DeleteObjects: 0.939000 ms)
+Unloading 4934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (352.0 KB). Loaded Objects now: 5394.
+Memory consumption went from 277.5 MB to 277.1 MB.
+Total: 6.316900 ms (FindLiveObjects: 0.615500 ms CreateObjectMapping: 0.229700 ms MarkObjects: 4.905800 ms  DeleteObjects: 0.563900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,457 +180,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1671357.020024 seconds.
-  path: Assets/Scenes/NeutralScene 1.unity
-  artifactKey: Guid(7cd6a10124a8df04aad2afb89ea25e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NeutralScene 1.unity using Guid(7cd6a10124a8df04aad2afb89ea25e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aa5d6b9b7767d10e960eb3babb787d') in 0.002772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.874667 seconds.
-  path: Assets/Scenes/VFX4.unity
-  artifactKey: Guid(ad748367b87d74f478786459bbe8b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX4.unity using Guid(ad748367b87d74f478786459bbe8b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e531d7464963cf18ba935095cbb197') in 0.001210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.941119 seconds.
-  path: Assets/Scenes/VFX4 1.unity
-  artifactKey: Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX4 1.unity using Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7283f5b592a0047c2692a44b69c83bb5') in 0.000789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.502860 seconds.
-  path: Assets/Scenes/VFX5.unity
-  artifactKey: Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX5.unity using Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304d4e5883d7babaea5895921d65ccae') in 0.000664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.383639 seconds.
-  path: Assets/Scenes/VFX5.unity
-  artifactKey: Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX5.unity using Guid(7e0d6e1aa2d86be4ba04278a39dbf078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f014f3741e71ba752bb2681b7a8051') in 0.000738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.624454 seconds.
-  path: Assets/Scenes/VFX4 1.unity
-  artifactKey: Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX4 1.unity using Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2e0d50cd60e5f1b0c356a219f5064f') in 0.000687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.800731 seconds.
-  path: Assets/Scenes/VFX5.unity
-  artifactKey: Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX5.unity using Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3838852155aeebcda8e066584c4c619f') in 0.000690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 44.259908 seconds.
-  path: Assets/Sessions
-  artifactKey: Guid(41aa4cb6f0395f64687c73f8c8457b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions using Guid(41aa4cb6f0395f64687c73f8c8457b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f49aba03c52d9aa91714c5eb7a7d58') in 0.000853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.701255 seconds.
-  path: Assets/Sessions/5 Vertex Shaders
-  artifactKey: Guid(49afef8b67ea96c41a123dcc7cc907f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders using Guid(49afef8b67ea96c41a123dcc7cc907f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f7559ae426df95fb662165b52137e2') in 0.000925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.612826 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup
-  artifactKey: Guid(d48ae9054f448c74f81bb90e0b98eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup using Guid(d48ae9054f448c74f81bb90e0b98eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a548e3ce536b0d3751a9d8aa64088e7') in 0.000740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.435253 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana
-  artifactKey: Guid(4e73b0eab20c5d34db34bc492991d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana using Guid(4e73b0eab20c5d34db34bc492991d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d2d2421633eb7b222eb046141ea42c') in 0.001012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.095968 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/RoundedCube.fbx
-  artifactKey: Guid(2bb503aef8520de44afc03e04d1c82a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/RoundedCube.fbx using Guid(2bb503aef8520de44afc03e04d1c82a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515fabf283e0b360ff5db8981a09d2bf') in 0.410852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/Shader Graphs_MarioKartPickup_FrontFace.mat
+  Time since last request: 1680561.638523 seconds.
+  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
   artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59235b6cb688a88b552265ad09332a58') in 0.402796 seconds
+Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60763c5592beef0654423fed71fd6c7c') in 0.376594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 64.279827 seconds.
+  path: Assets/Shader/FlagShader.shadergraph
+  artifactKey: Guid(e25c3c31a172d99438d0fc4906a57883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/FlagShader.shadergraph using Guid(e25c3c31a172d99438d0fc4906a57883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eecc1e57ae8258dafaccd545f45707') in 0.020493 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.571569 seconds.
-  path: Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/MarioKartPickup.shadergraph
-  artifactKey: Guid(39d22ba29c711ef45a6a271e7298d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sessions/5 Vertex Shaders/Mario Kart Pickup/Manana/MarioKartPickup.shadergraph using Guid(39d22ba29c711ef45a6a271e7298d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728113bb34180795dd8d8c99d1082cd9') in 0.222246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 155.885433 seconds.
+  Time since last request: 2.958850 seconds.
   path: Assets/Shader/MarioKartPickup.shadergraph
   artifactKey: Guid(39d22ba29c711ef45a6a271e7298d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/MarioKartPickup.shadergraph using Guid(39d22ba29c711ef45a6a271e7298d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feea2caaf2b91ce3f133e3de2354680') in 0.159444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.379490 seconds.
-  path: Assets/Material/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b5aefe48dbb59249a827258ec11cdd') in 0.135696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 226.470550 seconds.
-  path: Assets/Prefabs Rapidos
-  artifactKey: Guid(7c4d5cf8f8d89db45860fb3abcb9ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Rapidos using Guid(7c4d5cf8f8d89db45860fb3abcb9ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfbe4619d5bdd3041c93036381cb440') in 0.002588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.769680 seconds.
-  path: Assets/Prefabs Rapidos/MarioKartPickup.prefab
-  artifactKey: Guid(3a7b66fa6811b9c4c895d0fb4b407c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Rapidos/MarioKartPickup.prefab using Guid(3a7b66fa6811b9c4c895d0fb4b407c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4ae1275064f1e228197bd09d27e33b') in 0.096736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 78.432557 seconds.
-  path: Assets/Material/Slash
-  artifactKey: Guid(b45de0ae12613de428d0539e21fe74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Slash using Guid(b45de0ae12613de428d0539e21fe74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bcfca1285289af2c03df8fc41e7146') in 0.001409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 40.187567 seconds.
-  path: Assets/Material/TestScene
-  artifactKey: Guid(46cc8ab4e81d35144b36995a46e64f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/TestScene using Guid(46cc8ab4e81d35144b36995a46e64f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfedb3fa5d268c2a99099aa245dbe8ef') in 0.001230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.599513 seconds.
-  path: Assets/Material/Flag
-  artifactKey: Guid(eb0c084879c382047b0276feca87fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Flag using Guid(eb0c084879c382047b0276feca87fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdfa9d066d0074d2791da3d60c5ca0e') in 0.001023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.497296 seconds.
-  path: Assets/Material/Mariokart
-  artifactKey: Guid(42e69b9749f7ad746b6eaf5e552fe557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart using Guid(42e69b9749f7ad746b6eaf5e552fe557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46423ef81e50d2fdfa2e2adfccbbaf9d') in 0.001115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.902065 seconds.
-  path: Assets/Material/Tornado
-  artifactKey: Guid(5eb682079f5b7874f9fd776a252545ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Tornado using Guid(5eb682079f5b7874f9fd776a252545ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345b5d933e865faf17c585d784a4d3d') in 0.001977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 43.066361 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace Variant.mat
-  artifactKey: Guid(3edfc3d4514e7c84aa735f5b6843e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace Variant.mat using Guid(3edfc3d4514e7c84aa735f5b6843e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd2e0be901e788f7330a7098fce028e') in 0.030047 seconds
+Start importing Assets/Shader/MarioKartPickup.shadergraph using Guid(39d22ba29c711ef45a6a271e7298d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e2f4e17872f85af476191dde67b010') in 0.299359 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 37.202106 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FBackFace.mat
-  artifactKey: Guid(9fbba83ae068e9046abdb8031b78809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FBackFace.mat using Guid(9fbba83ae068e9046abdb8031b78809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a94c0d3e182a6de5a38e789f4ebba3') in 0.016580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 32.806620 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FBackFace.mat
-  artifactKey: Guid(9fbba83ae068e9046abdb8031b78809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FBackFace.mat using Guid(9fbba83ae068e9046abdb8031b78809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2232eb697a015889740cb8279b76c34b') in 0.020407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 29.197959 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841d54e1687e1d1abbb2f50f1d85b6e6') in 0.071090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 16.656786 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5732a5b8ae6d01ebc91f925ae2b73b8a') in 0.020184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 76.035865 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5795fe317f7a8f52e10a32422e0019ca') in 0.018392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 64.711661 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0494db6432f688397c2a532a2cd488b') in 0.025651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 221.035957 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee554729900d2f04c9f2a38e7a08a26') in 0.153329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 31.994376 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eeb2dbd245f9cabb3c081c0352fc8e') in 0.022306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 580.737251 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b3e4b4217bb442259c76ea2956078d') in 0.189358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 22.945754 seconds.
-  path: Assets/Textures/rainbow_gradient.png
-  artifactKey: Guid(833ffccbbc7fa6c4abd78956141a1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/rainbow_gradient.png using Guid(833ffccbbc7fa6c4abd78956141a1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e87bc6f246dbcd875e1ffda30c37ac4') in 0.594634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1322.408441 seconds.
-  path: Assets/HDIs
-  artifactKey: Guid(c0fcb59c5318b15468f2cfed3e86af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs using Guid(c0fcb59c5318b15468f2cfed3e86af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1c5cfaa28c248c4c9678fda8ab1205') in 0.024638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.363557 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6056821c46a470fd2e591b2006523016') in 0.229312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 26.745222 seconds.
-  path: Assets/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d519602f1eb64de9e3c7bf13707cc2') in 0.006346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.547558 seconds.
-  path: Assets/Timeline/VFX_Sword.playable
-  artifactKey: Guid(f49e552f5e331924dacfec597ad13b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline/VFX_Sword.playable using Guid(f49e552f5e331924dacfec597ad13b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1556c191f79e398aabe0753ce91ce588') in 0.259115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 37.136820 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eec7ab57adbabee2f7e6cfd4b50f76d') in 0.058386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.772664 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da02ff2bbfe8ea383b13b2b29e47938') in 0.020935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.433908 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e207a7291468b8ea66f59f3fc39da4a') in 0.094550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.354483 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b2b2ca8a37677dac5498367169eb2') in 0.035817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 195.028245 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6f8adf666147beff54b0f07c8f4ad') in 0.700444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 9.272597 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356a4ac1fef911b436ecac3139d6549d') in 0.626669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 358.021695 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eb845ae5c1d5c4cc63b0fd882f3055') in 0.417681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 187.313124 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77f555f8c924e71c61240c933dde891') in 0.478531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 29.033227 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3771373bd73d99bd98f7cc19a099d1d') in 0.054091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 143.340171 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927717c76ad6913313db85eaad81ce99') in 0.263258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 22.244581 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f9fa4e7ae0ef203852c35c0bf31aad') in 0.098063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 205.552165 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8f4db371fc0ba5422ff6c399746553') in 0.510354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 23.881410 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaea1cb7784e45d61ab7e2b1b93239b') in 0.033695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 342.697719 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2ddf079bcd3b56c198a77eadb8a9a5') in 0.046626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 228.288500 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat
-  artifactKey: Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_FrontFace.mat using Guid(9782510cd79b5fb44b6060f627050cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefea6b5df1b3ae560bc417436a349ac') in 0.495221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 5.261898 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8200da01ac2e6377af68ae73692ebac2') in 0.036754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 92.355987 seconds.
-  path: Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat
-  artifactKey: Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Mariokart/Shader Graphs_MarioKartPickup_BackFace.mat using Guid(8d21464fc4d355f4fa5b6598688dd4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07ebd8012de1f60289610cd018b4b9d') in 0.322646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 222.998561 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9ef7b762b6f4467046e30d437c8ba3') in 0.082599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 20.020565 seconds.
-  path: Assets/HDIs/aerodynamics_workshop_1k.exr
-  artifactKey: Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDIs/aerodynamics_workshop_1k.exr using Guid(98780007f2d59d34eb03b43398253c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2212381e04a20214197b5a552ec736') in 0.029907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
