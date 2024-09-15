@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60156
+64845
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20268] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 1006763897 [EditorId] 1006763897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25084] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 986392877 [EditorId] 986392877 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20268] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 1006763897 [EditorId] 1006763897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25084] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 986392877 [EditorId] 986392877 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 125.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1927.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,100 +70,100 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008612 seconds.
-- Loaded All Assemblies, in  0.456 seconds
+Registered in 0.104886 seconds.
+- Loaded All Assemblies, in  5.407 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.302 seconds
-Domain Reload Profiling: 757ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 5744ms
+	BeginReloadAssembly (4653ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (170ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (160ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (4647ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (134ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (303ms)
+		AnalyzeDomain (542ms)
+			TypeCache.Refresh (541ms)
+				TypeCache.ScanAssembly (521ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (339ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (265ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (161ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.286 seconds
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.720 seconds
-Domain Reload Profiling: 1506ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 4137ms
+	BeginReloadAssembly (214ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (516ms)
-		LoadAssemblies (420ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (2944ms)
+		LoadAssemblies (2784ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (721ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (855ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
+		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 7.94 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 8.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4936 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (352.5 KB). Loaded Objects now: 5396.
-Memory consumption went from 278.9 MB to 278.6 MB.
-Total: 8.642400 ms (FindLiveObjects: 1.297600 ms CreateObjectMapping: 0.282100 ms MarkObjects: 5.675300 ms  DeleteObjects: 1.385100 ms)
+Unloading 4937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (352.9 KB). Loaded Objects now: 5397.
+Memory consumption went from 279.6 MB to 279.2 MB.
+Total: 7.013200 ms (FindLiveObjects: 0.455500 ms CreateObjectMapping: 0.217800 ms MarkObjects: 5.590500 ms  DeleteObjects: 0.747900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,113 +180,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 416184.953357 seconds.
-  path: Assets/Scenes/VFX5.unity
-  artifactKey: Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX5.unity using Guid(bdef252b39a2cdd49b7ba760f921caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb5970f00e01c161d0702c5762313be') in 0.009461 seconds
+  Time since last request: 320274.064881 seconds.
+  path: Assets/Scenes/VFX7.unity
+  artifactKey: Guid(4e153ac164bd4a949a5344251a217e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFX7.unity using Guid(4e153ac164bd4a949a5344251a217e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfacc30ae8c83dc87210febabc08774') in 0.006024 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 151.982303 seconds.
-  path: Assets/Scenes/NeutralScene 1.unity
-  artifactKey: Guid(d0901f10877382c47a0a9899de60f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NeutralScene 1.unity using Guid(d0901f10877382c47a0a9899de60f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b14a914ea2730b9b9e56b3206e7139') in 0.001126 seconds
+  Time since last request: 311.470135 seconds.
+  path: Assets/Shader/SwirlEffect.shadergraph
+  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813077e935857e8022384616b5edd7ab') in 1.138170 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 8.710387 seconds.
-  path: Assets/Scenes/VFX6.unity
-  artifactKey: Guid(d0901f10877382c47a0a9899de60f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX6.unity using Guid(d0901f10877382c47a0a9899de60f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd5c3ea60eb55395f0c2c6c49536973') in 0.000639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1112.956432 seconds.
-  path: Assets/Modelos 3D/HexSphere.fbx
-  artifactKey: Guid(541fdf7ac006f194690e076e28aabb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/HexSphere.fbx using Guid(541fdf7ac006f194690e076e28aabb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ccc2987fbf77a3c8b6fcaf0bfcf8f') in 0.988330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 195.713457 seconds.
-  path: Assets/Shader/ForceField.shadergraph
-  artifactKey: Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ForceField.shadergraph using Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c105ddeb84fcf3bd10855a77682b1e9') in 0.615196 seconds
+  Time since last request: 465.053484 seconds.
+  path: Assets/Shader/SwirlEffect.shadergraph
+  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f49a1b39765b8a32f2231f2e3734b6') in 0.319279 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 20.644371 seconds.
-  path: Assets/Modelos 3D/Caballero/ToonRTS_demo_Knight.FBX
-  artifactKey: Guid(ba24e610e0a338545b447ff44a3cf1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos 3D/Caballero/ToonRTS_demo_Knight.FBX using Guid(ba24e610e0a338545b447ff44a3cf1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca05d1b35b41da995f604b5095e6be29') in 0.060410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 40.517530 seconds.
-  path: Assets/Shader/ForceField.shadergraph
-  artifactKey: Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ForceField.shadergraph using Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8148c0cc87b4c4fc04917c2a9838295') in 0.014475 seconds
+  Time since last request: 16.724497 seconds.
+  path: Assets/Shader/SwirlMat.mat
+  artifactKey: Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/SwirlMat.mat using Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca651d765d9c8285cf01e0f8f6c34ab') in 0.026478 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 844.336580 seconds.
-  path: Assets/Shader/ForceField.shadergraph
-  artifactKey: Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ForceField.shadergraph using Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb3ddf4a0c95a1ec6101511703263a9') in 0.474633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 10.131731 seconds.
-  path: Assets/Shader/ForceField.mat
-  artifactKey: Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ForceField.mat using Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0271230bffd4bf1374c2d9e098c13a') in 0.029150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 10.290057 seconds.
-  path: Assets/Material/ForceField
-  artifactKey: Guid(a38f6d374e61a3841a98885aad96e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/ForceField using Guid(a38f6d374e61a3841a98885aad96e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c360646f58baf6b079ae1bd6ceabb') in 0.000985 seconds
+  Time since last request: 9.563350 seconds.
+  path: Assets/Material/Taller_1
+  artifactKey: Guid(2d21060610cdb7244bf28db8dc9e740b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Taller_1 using Guid(2d21060610cdb7244bf28db8dc9e740b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6c46dd892984d20805c78d411c124c') in 0.000778 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 348.386160 seconds.
-  path: Assets/Material/ForceField/ForceField.mat
-  artifactKey: Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/ForceField/ForceField.mat using Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a13296b4f4e30b49e8d142a3bc3ef02') in 0.586697 seconds
+  Time since last request: 33.063430 seconds.
+  path: Assets/Material/Taller_1/SwirlMat.mat
+  artifactKey: Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Taller_1/SwirlMat.mat using Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0854c098710cd2b600e03cf3cea944') in 0.014285 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 36.395537 seconds.
-  path: Assets/Material/ForceField/ForceField.mat
-  artifactKey: Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/ForceField/ForceField.mat using Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211f040fba24773ab16c7deeed95497c') in 0.361337 seconds
+  Time since last request: 19.369754 seconds.
+  path: Assets/Material/Taller_1/SwirlMat.mat
+  artifactKey: Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Taller_1/SwirlMat.mat using Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd87f9578f106ada4433991a6303ead') in 0.013458 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 136.024933 seconds.
-  path: Assets/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0da9f2472cdba1df21f347d45bac1f7') in 0.001970 seconds
-Number of updated asset objects reloaded before import = 1
+  Time since last request: 26.466720 seconds.
+  path: Assets/Material/Taller_1/SwirlMat.mat
+  artifactKey: Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Taller_1/SwirlMat.mat using Guid(b708b91b6f9e2b3418240344f22f8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645ed0d68201d8a8e3fd0fe2e32fe66e') in 0.215764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 469.528422 seconds.
+  path: Assets/Scenes/VFX7.unity
+  artifactKey: Guid(4e153ac164bd4a949a5344251a217e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFX7.unity using Guid(4e153ac164bd4a949a5344251a217e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4def2d881219b26a11027d3fc11cb9ff') in 0.012711 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 281.966855 seconds.
-  path: Assets/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3bd503cbe0d00001385e682c2e42d8') in 0.002231 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
+  Time since last request: 105.719562 seconds.
+  path: Assets/Shader/SwirlEffect.shadergraph
+  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4db1392dd21ffe0fd20206ecb027f2') in 0.157106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
