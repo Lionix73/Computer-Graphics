@@ -1,0 +1,1681 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57492
+Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica
+C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2144]  Target information:
+
+Player connection [2144]  * "[IP] 10.9.232.243 [Port] 0 [Flags] 2 [Guid] 2168019232 [EditorId] 2168019232 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2144] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2144] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 1954.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.353029 seconds.
+- Loaded All Assemblies, in  7.799 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 479 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.953 seconds
+Domain Reload Profiling: 8751ms
+	BeginReloadAssembly (5479ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (475ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (413ms)
+	LoadAllAssembliesAndSetupDomain (1421ms)
+		LoadAssemblies (5477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1416ms)
+			TypeCache.Refresh (1414ms)
+				TypeCache.ScanAssembly (1135ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (908ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (713ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.081 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 8977ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (7835ms)
+		LoadAssemblies (7166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (752ms)
+			TypeCache.Refresh (715ms)
+				TypeCache.ScanAssembly (643ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (905ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.1 MB). Loaded Objects now: 6004.
+Memory consumption went from 233.5 MB to 232.5 MB.
+Total: 4.997300 ms (FindLiveObjects: 0.608000 ms CreateObjectMapping: 0.268200 ms MarkObjects: 3.521100 ms  DeleteObjects: 0.381200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53093.795824 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'acdbcb92780e1f0114d0b1584b6d31a6') in 0.041906 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 46.628257 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9918bc6e685fc01cb81a8652f0ca6365') in 0.012291 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 57.536051 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6549a6ce814c3f38669e0d662cfb166') in 0.018766 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.323570 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2b190555c54cd504d5be54cc9207d26') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 14.521725 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f11f0cc8b676df7758289423156f2551') in 0.011938 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 51.973649 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4aa487f7cb32578822f608d807be1350') in 0.012898 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 3.866851 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8878d1d0fc2b4809ab952d862c062d5d') in 0.009707 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 99.648100 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6f1c0e87f0700a246eeb2ed926c66d4') in 0.013677 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 15.331153 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5894a3be7a5c0bebe5dec12188d6d54') in 0.012833 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 7.017755 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b52acc00dea7095ed88bb3aa3111b07') in 0.011139 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 57.734050 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'beed858484334765cf6d81f69ce844be') in 0.021305 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 5.380018 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8933030bc6d51807cdbcf0e5904ae38') in 0.010907 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 60.900078 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c20d83503df9191de4752253896c205') in 0.013162 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 10.024715 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84dea1b849804de5bd9c359e9ae8467b') in 0.017207 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 41.771894 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a9db1c90c1627b1c47d156745af8566') in 0.011901 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 51.775923 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '406f545013e79c6e1fe1346f55cf7ccc') in 0.018911 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 27.648609 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4e121c7e393da0d2ed5e09b5466ef5f') in 0.019896 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.713587 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c15f1ba6850eea47d3187ec89cab0803') in 0.012953 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.421802 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1464c983e80663085616fe8563b5b20b') in 0.013842 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 59.349314 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2ee1d134924dbea79045d7f6540e009') in 0.013066 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 22.317944 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb4fe7d270dbefcffebba028717d5ef1') in 0.011566 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 13.678705 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bfafe979225512f1f6d5f7f93cea04a') in 0.015084 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 20.019610 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40e22d136cf404288492671d12c9134c') in 0.015846 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 8.552753 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76666ccce7f531de099d917242db15c6') in 0.009649 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 17.686720 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a24479c5319c8676a78e68212f18fda4') in 0.011818 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 45.255187 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e1bbd233d2a2c817093f9ea4e77df37') in 0.018660 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 14.669724 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e46744f1e0ff2f788e5a0666ef3d5369') in 0.022861 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.748714 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0dd3eaf9a29b92d9452cb7a4df955577') in 0.013486 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.730644 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'edd94335a12410ae2d37780163f9427f') in 0.017643 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 25.757025 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d72c36eb140c37343eca2bf4f89fed4') in 0.012587 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.572195 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1a8e3851fd9034d85b75e803e51a675') in 0.013885 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 1.858857 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6dd16b70b6be86de52b8a351346f8c18') in 0.020852 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 10.384384 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0046d68cd10fc4f7e4ca3d10c275628') in 0.022546 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 9.731429 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fea2d4d0f67d911d3dac1c932cc06bf4') in 0.025367 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 81.784959 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40f03237f7bee697be8a300387dd99f5') in 0.016190 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 22.581402 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b389749239d4b8a49ad9d6d0c2ea9e19') in 0.013919 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 22.902083 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc5d86f7108086d58abcb0b79c1f3245') in 0.009996 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 105.730864 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c58f87b96fc2f99f8080b6d0dbd1297c') in 0.021130 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 4.911415 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '516369d78bf78fecc737f895da361a14') in 0.017772 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.295768 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '100640d13986555ad70dc22cfa56dc64') in 0.018583 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 96.922763 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06a64f6de40b5467e9f7d6936e7c0b2d') in 0.013007 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 5.163608 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48ae8f93967d6a6954419fde510fe8eb') in 0.009461 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 15.495528 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a2aec80a399895e6667493696877d34') in 0.013268 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 21.912848 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfc1705fba7a3892d9f9a39227de6b9d') in 0.013332 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 31.268286 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '229baef0a9442671dbdc62d2cce33de5') in 0.012629 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 12.628855 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '159e519d41cbea6846feb90331511ca3') in 0.010407 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 1.096957 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4ea038c662dd43f002ff0aafcb5a8e3') in 0.010434 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 47.999070 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0786f77e93448a7f452b4597d13f5e4') in 0.013216 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 61.766902 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0eefa25ddeab10fece6f497a3557615') in 0.010691 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 4.507022 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9d8f7d30858707a139d584885a4710f') in 0.011953 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 25.196163 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91e8df66b738a9ef28e631e0ab20ae3e') in 0.013461 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 25.325520 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '417ba08fed47fda35e995529d6bebd23') in 0.010843 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 26.730316 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'daac087fe4c2fe625f46dca6809ef8be') in 0.011741 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 88.237680 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '288a0fae7989f56fc29658fcbbe427b7') in 0.021536 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 33.458501 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df93f6082687d0980fccbf0648ba42db') in 0.015151 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 58.802438 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '080921b0c20d9c4fa3af4e69a9f13761') in 0.015497 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.466119 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b45eb1b0c9e6ae1b9cc84bb1de805ad') in 0.010670 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 27.759776 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecc37f37f581fcc965222e0238233a44') in 0.012087 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 42.709539 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89671beda6920f725d1958f9166eb562') in 0.014712 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.169313 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45610200abfd5c767f3950b8c05de54b') in 0.014451 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.208494 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2cc425d68c2a4f5611a1d2df1bbc7a52') in 0.012265 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.114052 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43cc913d4505ae8b44e81e2b262c677a') in 0.018366 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.471638 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '287449b7f77d61b8cd5d8b598405f543') in 0.016840 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.838011 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d5c37263627564ee919143e9c1d620c') in 0.012123 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 33.839518 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4aed4fa4ff5b08026af33af3987879d') in 0.012194 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 14.443958 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dabf8d7ca46ee7fe48f0c5f9addb150d') in 0.011246 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 7.876807 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c77d8a2df34ced2303410d970e7937f5') in 0.011118 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 79.314579 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42fbb7e8a6114a912de53588ffc36e9a') in 0.022100 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 11.624298 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ad405867e81a513a3a2f26867da2dac') in 0.013558 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 17.032746 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2f2f97db33d3848b06709ec8f0b5d1b') in 0.011887 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 12.756013 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54df601a6e376278d233f445d6b555e2') in 0.011063 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 9.203561 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe4c8f3cdc8719f1838fd062f98997b7') in 0.011592 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 8.756310 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '700639eca65ecd343688d36f2c309939') in 0.010410 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 79.496652 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4785e9a30b2832fa87b52d68989027d') in 0.014934 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.275946 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fbcbc054fb5fab6bf3c1308740a6973') in 0.011145 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.232911 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77b63796585fa59759518718ec72a583') in 0.014600 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.467134 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a190f13ecbbe4f53db4eb55ceb79bf7d') in 0.012532 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 27.296487 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd33a41b49197e4ad36fdaba42ce67ba') in 0.013254 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 6.125239 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8f9ade0da4c7cdf85741bf5235e4414') in 0.020165 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.680513 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c7a72d50056183dd3bfd7acfb13d0d1') in 0.014104 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 24.902218 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1dfd54b1e156d60aa188d1f854ed3c9') in 0.012712 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 11.334950 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d8d7d04f72139060081ef786556ad41') in 0.012149 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.690558 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd854774d8ec6df1d7b683025e7864b0e') in 0.012965 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 32.384775 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb96777c867c26c7243a4cd20d3736da') in 0.015260 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 24.013198 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c45b80f3d865bffd9b7312f93e74ed2a') in 0.018242 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 19.921436 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '803332aac94f2e0d25e7bd51e58c5b1e') in 0.012052 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.942463 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f41352f922eaec15893bbd1bc07e5e5') in 0.014469 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.559493 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc175b2ef54c22cfffd1730d44bb5278') in 0.018464 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 27.644727 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85190c87b9f6a6d55284adb2a17b1d3d') in 0.019668 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 9.255110 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75f24385f84af2a7928e348a83c8b995') in 0.011612 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 9.694080 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7db4885fc07e044ef5b17364b45cdee') in 0.014471 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.132680 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '468c387b0852f6de17e928cd0a7c9526') in 0.010968 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 25.165533 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae51574d2888e414e73ee19117be29ce') in 0.014452 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 14.313298 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f57658bb45a4d051222f2419793a7c2') in 0.011666 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.954840 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9446ec67a4afe3b3397aa6fa775f67fa') in 0.010738 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.792106 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd464ca363f9bad03cd34599265d4f1b0') in 0.014385 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 63.422248 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efd59cb1f0ce8a7525bb1b94c4c9ad6a') in 0.018908 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 24.697785 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f009939555f6943067f48d2cccb78e7a') in 0.018011 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.371989 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1089020c74ecd4805294b9af10e1787d') in 0.011760 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.640073 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f96f83bf8c9f673b76e6852a3956ec53') in 0.012170 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 55.796715 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8291a8b46fc1ee941394c5387b3a283d') in 0.013162 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 32.684483 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c2777efa3499db2cb814df3b62e93f7') in 0.027736 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.711396 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8970aceb18d96af1016bbe770f120fa9') in 0.016095 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.005544 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c74f52e51783751fddc91b6234ec4092') in 0.012134 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.288645 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31cf519efcb43497e44b60ff8c084119') in 0.012429 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.954279 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70f2e402dbf3a91e7ab0cd9b01e04fea') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 74.607339 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '612f3fba1ebaa1588687836e8c73555e') in 0.013347 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 26.711689 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '905f383e47fba7db2fd26ef7453f7659') in 0.015776 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.419456 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5ee90e05ef99d84495eff7a1f2c7774') in 0.019811 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 80.900549 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a1879e7b0d47da2c3a4f0ef97175527') in 0.015773 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 7.370293 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd00f48569dc35969b30c2af17d841d21') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.203014 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e0b67a2abf25db2cf386eb828605ff9') in 0.011781 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 84.213442 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4eac24a69dc2113d2026676ac20bb924') in 0.019629 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.722081 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e35d9a85b9bf7169d5dd30b4c34c7ce') in 0.016509 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.404845 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7c86e192ab40e5bbea98203add4a678') in 0.012655 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 3.885891 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2b65fbe72b7e9a7efc36a79567383fe') in 0.013214 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 31.686832 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9366b8d1d21d3146d732b63cf9d5c2be') in 0.016402 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.890984 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2bc7a4c0311c44fbfbf4c16b7a4aecf0') in 0.021037 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 10.692350 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5442fb57ac658b4f9a61294fa25da0f2') in 0.010360 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.804184 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0b508a60241af91c41823141353482c') in 0.010478 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 25.419617 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4b2da1f384ef3a0d41521f8136ade57') in 0.011351 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 14.773354 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8b105e83a54df9492199c123280d1b5') in 0.011202 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 358.064886 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37eb9f0d384c9c0d442a71fe03ad6208') in 0.067517 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 17.292349 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81841a4dbb40ece66279d656432f6549') in 0.019371 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 3.661679 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05f1b289037a72afd4335c05420ddb0b') in 0.018034 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.897311 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73781ebcf00f8e722172d7f1ceaa85c4') in 0.011565 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 5.092069 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0696bb1b48e617009f25db30e3a5fdf0') in 0.018344 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.144097 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e24a1eea64a99a42f7dde578203496ac') in 0.013527 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 70.006110 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68f330082a5b257dcd03e6f0bc327092') in 0.015800 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 49.036289 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8241444247f0d9a271b5106bfa31a722') in 0.015110 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 9.502306 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48101f50cddfa5522a22e21105081a40') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 35.416268 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a12206854c3fa573b5177c7440758d10') in 0.015726 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 28.103341 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '756b0462d08e1fcc332afcc93ac93543') in 0.031907 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 28.058990 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50438240beed81636306a2db18d108f8') in 0.015247 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 28.198574 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c86a67cca684d9e473709aa86f96ee65') in 0.015321 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 20.036800 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ccfa76f1d85cd165a2d0d0ce69f01d2') in 0.015780 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 98.467639 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '576d0f2036d326796abc2d3d1471c428') in 0.012123 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 8.601044 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd94b49e57fa5b291ed08dd90a47be705') in 0.014235 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 27.138869 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86e7c9faa3c149e7116c5a437e8875cf') in 0.011655 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 39.737169 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6af2561756832a5299922a76b9e2d4c2') in 0.014394 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 42.648533 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ac162355ec51293dc107d8fd6111153') in 0.049646 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 41.159484 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02833c15ee9495bce8061cc49a9f2531') in 0.017416 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 32.536883 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7419cbe7df71f8e1a8e955fa3eabbae') in 0.013497 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 3.967813 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99164c88882f33458fbec0a41e71bab9') in 0.011075 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 24.983502 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c3067ff76ce2cd7ff81297a2938a9aa') in 0.013344 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 95.764065 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7491437bae276cd9d0d223e695faaf74') in 0.014132 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 250.815378 seconds.
+  path: Assets/Shader/SwirlEffect.shadergraph
+  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4edbfd58bab3418126f55e0b72b66cb') in 1.429105 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 4.129775 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17aba92deb15cfaa524d885ef8efad8a') in 0.021974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 16.820379 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08b4e9326525ce2b829b2411d68872df') in 0.023764 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 131.372421 seconds.
+  path: Assets/Animaciones
+  artifactKey: Guid(87a0a0af0f01c30499821c150b665bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones using Guid(87a0a0af0f01c30499821c150b665bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a56fd88cf29e791bb6a8731edafb8745') in 0.002374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.972584 seconds.
+  path: Assets/Modelos 3D
+  artifactKey: Guid(f608973360fa9ac4c9624dc01c1ffe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3D using Guid(f608973360fa9ac4c9624dc01c1ffe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f55d8f7bf822f5ce1ad77b37393349c6') in 0.001465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 470.327380 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfa07bace6e56dd4a50b117f9cdb08a9') in 1.039882 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 77.488316 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9fc973c9d7d2b8cdfceef57d037d820') in 0.606831 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 52.130018 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a7c7298829362ff62dff16c2c92e62f') in 0.029340 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 31.639148 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7577fcde86f86e03e14cc3a58b851b3f') in 0.335428 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 10.031038 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '032a5f57e70ec92c8e15bf811f1d007e') in 0.370042 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 8.638051 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '614b60e7cdfaebe2c98b4b4f192eb791') in 0.024554 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 42.012145 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de5da21dddfb4e0d3265ea63dd8bd45e') in 0.022312 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 14.856843 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86fd004fceda940bceb87917e9866b53') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 33.559910 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c099a637e8a705723f48db053a5f1d4') in 0.022649 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 5.311808 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce18d998aedd345e9ae11146b6610159') in 0.039521 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 109.500837 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02f5d3405681aac444a164e34854b46b') in 0.018974 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 115.931997 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa065afad74a9ab6cdac5233fc5f4391') in 0.018347 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 75.288688 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '754fae0da981fa92c5c42ad5cc49b10d') in 0.016415 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 49.048235 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bac7d567881c85905d26f617c1433fe8') in 0.385202 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 17.743385 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd77792ea285c903d7583ca9aa8b0565') in 0.015887 seconds
+Number of updated asset objects reloaded before import = 4
+Number of asset objects unloaded after import = 30

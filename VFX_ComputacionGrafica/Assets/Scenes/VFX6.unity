@@ -377,7 +377,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2bb503aef8520de44afc03e04d1c82a6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 2.158
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2bb503aef8520de44afc03e04d1c82a6,
         type: 3}
@@ -781,6 +781,21 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1302419198371632584, guid: 435c2a42d1894e142b0f744e8280e311,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302419198371632584, guid: 435c2a42d1894e142b0f744e8280e311,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64d92417427f8444daf4f58c350cea16, type: 2}
+    - target: {fileID: 1302419198371632584, guid: 435c2a42d1894e142b0f744e8280e311,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 831893d130a34d844a79ba742b93fcce, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
