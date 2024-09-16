@@ -1,6 +1,9 @@
 # ComputacionGrafica
 
 ## Ejercicio Grupal 2 _(Me hice solo xd)_
+
+![EfectoBlackHole](https://github.com/user-attachments/assets/1928519f-675b-4b32-8acf-c68bb360dda9)
+
 ### Anticipacion (Agujero Negro)
 La primera parte del efecto segun mi perspectiva del dibujo era muy parecido a un agujero negro, porque parecia atraer las particulas al vortice y un origen muy brillante entonces me centre en tratar de realizar un agujero negro.
 
