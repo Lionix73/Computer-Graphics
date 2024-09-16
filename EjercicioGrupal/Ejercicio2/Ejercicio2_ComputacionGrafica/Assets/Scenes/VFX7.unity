@@ -149,7 +149,7 @@ VFXRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70755924}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -5433,13 +5433,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.98440486, z: -0.17591785, w: 0}
-  m_LocalPosition: {x: 0, y: 2.367, z: 3.16}
+  m_LocalRotation: {x: -0.01974367, y: 0.9781854, z: -0.17480643, w: -0.11048201}
+  m_LocalPosition: {x: 0.55, y: 2.367, z: 3.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 20.264, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.264, y: 192.888, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21123,8 +21123,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 9
-      minScalar: 4
+      scalar: 4
+      minScalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -21824,29 +21824,29 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 5.1482987
-          outSlope: 5.1482987
+          inSlope: 8.419829
+          outSlope: 8.419829
           tangentMode: 34
           weightedMode: 0
           inWeight: 0
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.19423893
+          time: 0.11876725
           value: 1
-          inSlope: -2.6559687
-          outSlope: -2.6559687
+          inSlope: -1.0357939
+          outSlope: -1.0357939
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.81358635
+          inWeight: 0.63137496
           outWeight: 0.14065039
         - serializedVersion: 3
           time: 1
           value: 0
-          inSlope: -3.4838192
-          outSlope: -3.4838192
+          inSlope: -1.4666569
+          outSlope: -1.4666569
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.16271323
+          inWeight: 0.1861096
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -22170,7 +22170,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 43407
+        atime1: 48496
         atime2: 65535
         atime3: 0
         atime4: 0
@@ -25634,8 +25634,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 862775944}
-  - {fileID: 1515584725}
   - {fileID: 1812146721}
+  - {fileID: 1515584725}
   - {fileID: 141018591}
   - {fileID: 70755927}
   m_Father: {fileID: 0}
