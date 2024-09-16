@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57492
+60228
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercicio2_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/EjercicioGrupal/Ejercicio2/Ejercic
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25684]  Target information:
+Player connection [26812]  Target information:
 
-Player connection [25684]  * "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 2765253626 [EditorId] 2765253626 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26812]  * "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 1112742903 [EditorId] 1112742903 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25684] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25684] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26812] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 26.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012390 seconds.
-- Loaded All Assemblies, in  0.484 seconds
+Registered in 0.011624 seconds.
+- Loaded All Assemblies, in  0.478 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 367 ms
+Android Extension - Scanning For ADB Devices 506 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.764 seconds
-Domain Reload Profiling: 1247ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1472ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (163ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (167ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (168ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (765ms)
+	FinalizeReload (997ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (711ms)
+		SetupLoadedEditorAssemblies (938ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (509ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (651ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 1247ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.045 seconds
+- Loaded All Assemblies, in  1.056 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.920 seconds
-Domain Reload Profiling: 1959ms
-	BeginReloadAssembly (204ms)
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 2017ms
+	BeginReloadAssembly (248ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (739ms)
-		LoadAssemblies (581ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (688ms)
+		LoadAssemblies (550ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (219ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (920ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (964ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (703ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (486ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 11.25 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5519 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (1.1 MB). Loaded Objects now: 6005.
-Memory consumption went from 233.6 MB to 232.5 MB.
-Total: 5.427600 ms (FindLiveObjects: 0.535200 ms CreateObjectMapping: 0.317400 ms MarkObjects: 4.204300 ms  DeleteObjects: 0.365900 ms)
+Unloading 24 unused Assets / (1.1 MB). Loaded Objects now: 6007.
+Memory consumption went from 234.2 MB to 233.2 MB.
+Total: 6.006200 ms (FindLiveObjects: 0.780300 ms CreateObjectMapping: 0.374700 ms MarkObjects: 4.493100 ms  DeleteObjects: 0.352600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,732 +186,926 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 50335.102150 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '93e400377c82964f4652ede2d40ee48c') in 0.046773 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 29.130644 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '33bf33aa86c83d9a57f98bbeeffe66fd') in 0.009027 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 226.780413 seconds.
-  path: Assets/Shader/SwirlEffect.shadergraph
-  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8ea7e480f50d11c82d9ac410d56857d0') in 0.841891 seconds
-Number of updated asset objects reloaded before import = 6
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.193229 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9c630e3e4177c12ba3598f4e8205fa70') in 0.319135 seconds
+  Time since last request: 59707.398024 seconds.
+  path: Assets/Animaciones/Spell
+  artifactKey: Guid(d82d4d2e58af09e48a367eb26e7d0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell using Guid(d82d4d2e58af09e48a367eb26e7d0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e669134383c405fdb0e8cf6432c1a3c2') in 0.003810 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.678031 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '13ca7605bae27ae58326e6c91ce162f6') in 0.368009 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 69.707620 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ece077dba76fd9951c31ea31af838cec') in 0.016766 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 34.046983 seconds.
-  path: Assets/Shader/SwirlEffect.shadergraph
-  artifactKey: Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/SwirlEffect.shadergraph using Guid(1aaa02877aa2d1240aaf21bbc2d4588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dc5413147e02b0493b6de02b065b64bb') in 0.396454 seconds
-Number of updated asset objects reloaded before import = 6
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.824319 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a1443adb544c02ca64f7084b7f138f72') in 0.309919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 2.666481 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'db490587890fbcfcdd7c4591307deebf') in 0.328256 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 37.540019 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '87653d7b98f0f5a7403747254ba3e3b9') in 0.015319 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 17.386273 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f7f2e4642eeae2f3c76c0c609ca84953') in 0.401698 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 2.175791 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f200768118da1c860441e0d733909d9') in 0.357647 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 4.497352 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '62c8384dd4c3daa968b85889e049089f') in 0.012934 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 19.919959 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cc584edeac3216f94f9612f046e246e7') in 0.013611 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 8.957516 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6cc7653a1f373e18ee526c7778f5788d') in 0.015487 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 38.809390 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e612fe53801df1d95916e80796c4ad69') in 0.010601 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 18.950319 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '214763a7122e576abfb704ba4330eed4') in 0.011953 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 37.866151 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '912b3bc8c961fe91bf251e617e3689a0') in 0.014290 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 41.233615 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3a212007c148dd84182b3a37ac065f71') in 0.015700 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 778.966285 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '878458c173e4cffc10c87569646642f4') in 0.077181 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 122.179836 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '35b1e1f9dbec4cf1d90abae4f2df8e73') in 0.024100 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 7.254962 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1638f9b7295c56bcd4396fb1485c5f78') in 0.015269 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 16.345872 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e6200faee92c8f0a38958a87ba060886') in 0.375351 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 166.878084 seconds.
-  path: Assets/Textures/Smoke.png
-  artifactKey: Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Smoke.png using Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fdb2c88453932c51a963981af127a9e5') in 0.391916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.243216 seconds.
-  path: Assets/Textures/Smoke.png
-  artifactKey: Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Smoke.png using Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '13cb224f6e0b153d598379a91eabfd6d') in 0.021884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 35.099284 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aa909279a14cf393b80d7e6275b1fe32') in 0.029146 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 21.883484 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c9d66b19c5338196545a4ce9923beef3') in 0.016186 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 7.220046 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ed7e79a74bd80f04da118b76937cafd') in 0.026636 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.222240 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5447456a68b2ef8ad1f9eed0f834b36e') in 0.018001 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 25.726154 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '600f8119dec2a0ea5124da6b0157afdc') in 0.016020 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 9.542674 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3aff326e5c85f59776c8193184f653c0') in 0.013563 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 18.461182 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '09aa7590594beee997faab5e40d8f4db') in 0.017158 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.487030 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e839aef038c0a5a7cdbeaae0c6899830') in 0.015821 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.502044 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '23a52b9629e3fcbdfaf38355c8a79126') in 0.024567 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 72.418279 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f7b789a6090b87c5c5f5ab3f1e571c3c') in 0.018553 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 9.162270 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b191afa56dda9c7ff62a6b988a01586') in 0.033424 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.618038 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bd3c0d1611a5ea096fb6f75be6cadd17') in 0.019128 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 25.157891 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '79ea03dac183098a72a78339f5f8a5cc') in 0.015578 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 43.332067 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e03d5bb042787ce44e55a4040c269fbb') in 0.016992 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 12.841392 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ddb4e57cbce7a25bc05a67e1dc2b76ad') in 0.015400 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 2.555159 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5ca95aaeaa41be4332ffc8b204aeab2d') in 0.016937 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 12.777250 seconds.
-  path: Assets/Textures/Smoke.png
-  artifactKey: Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Smoke.png using Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '785044a057702c59698e758033d629f5') in 0.156212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.036227 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd11f0b8a8a55ecd017beb33ec291555b') in 0.019570 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.708418 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f07e7ccab0f47626e2763734ed73b152') in 0.017175 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 2.232416 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8a9f4a09264f0d3cf563e617af15c6e4') in 0.013604 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 9.275475 seconds.
-  path: Assets/Textures/Smoke.png
-  artifactKey: Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Smoke.png using Guid(630ba751e5591b64a8ba5ac2802bcb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5c872c2dda430d52a107a42e7d6e285b') in 0.036596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 48.019980 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3f2d6e6d18b15970f051157b9c3de105') in 0.014585 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 86.502203 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '15584f65646780f2092894efcc9ddcfc') in 0.015591 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.837021 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8a8f9daaf4466c29473019b5960c1fb9') in 0.014577 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 28.945719 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5b37dfec512334b16d694f24cc5c2ccb') in 0.017024 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.255284 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78d39b298cb05442cd62d1a8e1d4348f') in 0.017449 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 10.997278 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2ec3e1b23674d67a8b0f9ac0708a3f92') in 0.018349 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 14.684488 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '260248f0783f3535340692141881da38') in 0.029523 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.059536 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5e2c444bfb1df62ede7596ffe06126c8') in 0.018732 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 13.380375 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3d43b19dcb354e9e0ace6d61637bdb9c') in 0.016317 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 6.521741 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '319781b844fff7d1102503c8a7b14f9b') in 0.014215 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 15.982027 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e4b70ed3c047faeb315920fdbe384af1') in 0.018258 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 24.231090 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '68a4b00ae31dd4b6b4313183cf99c621') in 0.019761 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 14.332093 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f6f6751119594aa949e67062421e00c8') in 0.015186 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 9.431335 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a4a21cc548fae230cdd4c5a4641c73e') in 0.014483 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 6.500279 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7e7ada53a1d118cc224ce9b022e561fa') in 0.013333 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.255398 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ffa763b9b2c6e6bd2a586ddb9580f1bb') in 0.015564 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 33.105455 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4da44dd2804af87cf81b3062add4962') in 0.016740 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 16.879866 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2db717bbf27bbc0c4c976f84a9045b25') in 0.026366 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 27.575171 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ff811071c787631b30711ea041e12ca8') in 0.015740 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 14.324682 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c86a163072073de7b1604cf9ca3a8978') in 0.017344 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 2.617474 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f4a55185c286d48e646a0770e2f15af8') in 0.015255 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 39.419889 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'db05d84c335f3367e10e4c80636bf2d2') in 0.028975 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 2.571915 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9de4117325a34c727fd7901247d13c87') in 0.017519 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 3.216131 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '28d9e4761c0d60865c2ddfb0228e0751') in 0.012030 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 125.497158 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b2b627078394d6e578a54d684ed313a9') in 0.016732 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 52.944624 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'af609393d93e01aaab8dffafeb369032') in 0.013954 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 6.462760 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8b3bba8fbccbd56ba9e05966b1c96752') in 0.012567 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 2.577806 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '293260e2ff986bfdcf083eafa54d6cb6') in 0.013672 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 1.678081 seconds.
-  path: Assets/VFX Graph/ExplosionBlackHole.vfx
-  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8d9eb5dd36e60fb12cf4736fecb08540') in 0.018691 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.301285 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Noise.tga
-  artifactKey: Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Noise.tga using Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7f3221d33002be5b94f7736f07ac7ddc') in 0.115616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.047140 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Sphere.tga
-  artifactKey: Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Sphere.tga using Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a96a3732d83510f9ddf9ec96f6415cf9') in 0.025106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset
-  artifactKey: Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset using Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b513bf306e38b6d654faa4ffa5e130da') in 0.216106 seconds
+  Time since last request: 26.814465 seconds.
+  path: Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim
+  artifactKey: Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim using Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '425c287c3d5d26ff43ac2341106a8db3') in 0.027085 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/SimpleSmoke.tga
-  artifactKey: Guid(de0fae515169ff246a20d58a8a440ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/SimpleSmoke.tga using Guid(de0fae515169ff246a20d58a8a440ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 27.642470 seconds.
+  path: Assets/Animaciones/Spell/Ch36_nonPBR@Standing 2H Magic Attack 03.fbx
+  artifactKey: Guid(a2e165b805894164884790f896e14d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell/Ch36_nonPBR@Standing 2H Magic Attack 03.fbx using Guid(a2e165b805894164884790f896e14d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '744b1ad755a74ade07e514049ddbdaa2') in 0.021799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 6.119870 seconds.
+  path: Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim
+  artifactKey: Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim using Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7781dcd2a09e4afea6b24aea41f10676') in 0.023882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.464644 seconds.
+  path: Assets/Animaciones/Spell/Ch36_nonPBR.controller
+  artifactKey: Guid(1efb11acc242bd644acc510ee1a92dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell/Ch36_nonPBR.controller using Guid(1efb11acc242bd644acc510ee1a92dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33b1c144ba1e1f0c155f526ac7e7081a') in 0.025566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.531 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.043 seconds
+Domain Reload Profiling: 2571ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2044ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 6012.
+Memory consumption went from 204.4 MB to 203.4 MB.
+Total: 4.618500 ms (FindLiveObjects: 0.714800 ms CreateObjectMapping: 0.508300 ms MarkObjects: 3.134300 ms  DeleteObjects: 0.257900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173.253659 seconds.
+  path: Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim
+  artifactKey: Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Spell/Standing 2H Magic Attack 03.anim using Guid(67eaf4881a49dbc4598399f7ab6a209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6795960cc54634026cdbf59c56a9c22c') in 0.075693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 194.236283 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80f5703d6202c0d686c6f0b2522480ea') in 0.036740 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.936 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.437 seconds
+Domain Reload Profiling: 4372ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (675ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (740ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 6016.
+Memory consumption went from 204.3 MB to 203.2 MB.
+Total: 8.451900 ms (FindLiveObjects: 1.026300 ms CreateObjectMapping: 0.277800 ms MarkObjects: 6.230600 ms  DeleteObjects: 0.911100 ms)
+
+Prepare: number of updated asset objects reloaded= 7
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.225 seconds
+Domain Reload Profiling: 2736ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 6020.
+Memory consumption went from 204.3 MB to 203.2 MB.
+Total: 5.568000 ms (FindLiveObjects: 0.807200 ms CreateObjectMapping: 0.479500 ms MarkObjects: 3.881000 ms  DeleteObjects: 0.397800 ms)
+
+Prepare: number of updated asset objects reloaded= 7
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 522.821512 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(25723fe46041ec648a0bd4e82c986e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(25723fe46041ec648a0bd4e82c986e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78e7008e397197fa4e05dba97973e888') in 0.004432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 133.425018 seconds.
+  path: Assets/Scripts/PlayAnim.cs
+  artifactKey: Guid(95647200a01a6cd4faa2e7b21e4567f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayAnim.cs using Guid(95647200a01a6cd4faa2e7b21e4567f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50853afbafd24b8df9779d1d387c299e') in 0.001992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.349 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.512 seconds
+Domain Reload Profiling: 3859ms
+	BeginReloadAssembly (565ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (773ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 19.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6025.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 22.072400 ms (FindLiveObjects: 1.061300 ms CreateObjectMapping: 0.835200 ms MarkObjects: 18.360000 ms  DeleteObjects: 1.659900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.075869 seconds.
+  path: Assets/Textures/Play.png
+  artifactKey: Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Play.png using Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '77df2efeda3b10c46199f7fb2bf5821d') in 0.020303 seconds
+ -> (artifact id: '29ab6656ebc5a41518b8de0351cc69e0') in 0.116963 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 38.733142 seconds.
+  Time since last request: 5.515244 seconds.
+  path: Assets/Textures/Play.png
+  artifactKey: Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Play.png using Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25c5739039a62d2d67f07f87416a1797') in 0.023570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.990586 seconds.
+  path: Assets/Textures/Play.png
+  artifactKey: Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Play.png using Guid(34191541db5d3cc4bbd80d2de02671f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e348f2f4050d27e74e7dba34a5584a5') in 0.050591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.676047 seconds.
+  path: Assets/Scripts/PlayAnim.cs
+  artifactKey: Guid(95647200a01a6cd4faa2e7b21e4567f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayAnim.cs using Guid(95647200a01a6cd4faa2e7b21e4567f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35588328cc74531a07ad5c54c1506b7b') in 0.001275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.906 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.672 seconds
+Domain Reload Profiling: 5606ms
+	BeginReloadAssembly (537ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (271ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (2046ms)
+		LoadAssemblies (2050ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (100ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 12.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6033.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 6.869600 ms (FindLiveObjects: 0.603400 ms CreateObjectMapping: 0.248700 ms MarkObjects: 5.041400 ms  DeleteObjects: 0.972800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.193 seconds
+Domain Reload Profiling: 2733ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 5.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6037.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 7.324600 ms (FindLiveObjects: 0.699400 ms CreateObjectMapping: 0.329400 ms MarkObjects: 4.887700 ms  DeleteObjects: 1.406000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 693.797864 seconds.
   path: Assets/VFX Graph/ExplosionBlackHole.vfx
   artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6c2a5214d8b96c30a988530a11b6a55c') in 0.020741 seconds
-Number of updated asset objects reloaded before import = 5
-Number of asset objects unloaded after import = 29
+ -> (artifact id: '6f36249a03930ad5ea6112f63e48e052') in 0.644574 seconds
+Number of updated asset objects reloaded before import = 8
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.863 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.648 seconds
+Domain Reload Profiling: 12524ms
+	BeginReloadAssembly (459ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (172ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (2326ms)
+		LoadAssemblies (2450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (9649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6041.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 9.805600 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.258000 ms MarkObjects: 6.573600 ms  DeleteObjects: 2.439300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 360.513583 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f712a138654276e3a260caf66d254d9') in 0.246324 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 720.756387 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d9f6731477dc74badd115d32cddc685') in 0.404207 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 30.777953 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ebc266faefce0f01eb7846f8b698582') in 0.015784 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 10.765545 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2e136329fc668349f917343a4b992e4') in 0.015411 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 32.054464 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de18ad3d1699b0448dd78aa82af7be54') in 0.017569 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1334.910139 seconds.
+  path: Assets/VFX Graph/ExplosionBlackHole.vfx
+  artifactKey: Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graph/ExplosionBlackHole.vfx using Guid(0fe36dcac264377439f146d67f1c043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6970155f1528eb7434f9e10981d446c1') in 0.071907 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.545 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.965 seconds
+Domain Reload Profiling: 4519ms
+	BeginReloadAssembly (691ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (286ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (787ms)
+		LoadAssemblies (901ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2965ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6045.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 8.626100 ms (FindLiveObjects: 0.903000 ms CreateObjectMapping: 0.418700 ms MarkObjects: 6.027600 ms  DeleteObjects: 1.270900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.673 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.604 seconds
+Domain Reload Profiling: 3275ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6049.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 3.972300 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.228900 ms MarkObjects: 2.733100 ms  DeleteObjects: 0.538800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.521 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.961 seconds
+Domain Reload Profiling: 2479ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6053.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 5.260000 ms (FindLiveObjects: 0.884800 ms CreateObjectMapping: 0.247100 ms MarkObjects: 3.289900 ms  DeleteObjects: 0.834600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.614 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.078 seconds
+Domain Reload Profiling: 2690ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 6057.
+Memory consumption went from 208.4 MB to 206.6 MB.
+Total: 6.959200 ms (FindLiveObjects: 0.664900 ms CreateObjectMapping: 0.475100 ms MarkObjects: 4.870300 ms  DeleteObjects: 0.945700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayAnim.cs: 6d3a55bfe91f3a1faef25412b52715dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26fa7817271bb0d1e5ca3121632c85e8 -> 
