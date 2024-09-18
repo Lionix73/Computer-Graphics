@@ -1,5 +1,36 @@
 # Computer Graphics
 
+## Parcial 2 ShaderGraphs
+
+### Distorsion
+Me base en el ejercicio realizado para el ForceField y poder utilizar lo aprendido allí para replicar el efecto.
+
+![Distorsion](https://github.com/user-attachments/assets/14ee8677-50de-4703-b025-d30749060eff)
+
+![image](https://github.com/user-attachments/assets/3560eaa2-723e-4fd7-9dbf-613123da73a9)
+
+### Movimiento en Humo
+En este ejercicio utilice los conocimientos utilizados en el ejercicio grupal 2, pues para la distorsion que realize era necesario el uso de una mascara transparente con respecto a una UV en movimiento.
+
+![SmokeNormals](https://github.com/user-attachments/assets/d4cff06c-5f55-4551-870e-753ea28e7106)
+
+![image](https://github.com/user-attachments/assets/d1202c69-c306-4bd1-ae4d-12abdcb873d2)
+
+### Erosion
+Este ejercicio utilice los conocimientos base del power up de mario junto a la mascara del guardia.
+
+![NoiseDissolve](https://github.com/user-attachments/assets/fab05954-229f-45ae-a9fb-105668cb0b07)
+
+![image](https://github.com/user-attachments/assets/44f6e99f-8313-4d37-ad52-d1cf929f4b5c)
+
+### Disolver Textura
+Igualmente este utilizaba gran parte del conocimiento del ejercicio de Erosion pero levemente modificado.
+
+![DissolveTexture](https://github.com/user-attachments/assets/8ed4a566-8343-41f6-9aab-5a14098a89f1)
+
+![image](https://github.com/user-attachments/assets/87d9d881-b286-4c42-9930-a76758b34a59)
+
+
 ## Ejercicio Grupal 2 _(Me hice solo xd)_
 
 ![EfectoBlackHole](https://github.com/user-attachments/assets/1928519f-675b-4b32-8acf-c68bb360dda9)
