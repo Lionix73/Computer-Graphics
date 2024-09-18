@@ -1,4 +1,4 @@
-# ComputacionGrafica
+# Computer Graphics
 
 ## Ejercicio Grupal 2 _(Me hice solo xd)_
 
