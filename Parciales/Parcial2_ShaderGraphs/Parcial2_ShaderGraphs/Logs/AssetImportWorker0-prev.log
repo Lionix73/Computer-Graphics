@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Parcial2_ShaderGraphs/Pa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61347
+64132
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Parcial2_ShaderGraphs/Parcial2_ShaderGraphs
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Parcial2_ShaderGraphs/Parcial2_ShaderGraphs
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Parcial2_ShaderGraphs/Pa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26604]  Target information:
+Player connection [9788]  Target information:
 
-Player connection [26604]  * "[IP] 10.9.232.243 [Port] 0 [Flags] 2 [Guid] 145061579 [EditorId] 145061579 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9788]  * "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 727753289 [EditorId] 727753289 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9788] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 24.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008106 seconds.
-- Loaded All Assemblies, in  0.494 seconds
+Registered in 0.009972 seconds.
+- Loaded All Assemblies, in  0.402 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 284 ms
+Android Extension - Scanning For ADB Devices 527 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.661 seconds
-Domain Reload Profiling: 1154ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (168ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (173ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (662ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
+		SetupLoadedEditorAssemblies (811ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (410ms)
+			InitializePlatformSupportModulesInManaged (641ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 1154ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.892 seconds
+- Loaded All Assemblies, in  0.699 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.743 seconds
-Domain Reload Profiling: 1633ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
+		CreateAndSetChildDomain (23ms)
 	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (646ms)
-		LoadAssemblies (398ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (369ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (332ms)
-			TypeCache.Refresh (303ms)
-				TypeCache.ScanAssembly (159ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (744ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (741ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (599ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4937 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (348.1 KB). Loaded Objects now: 5404.
-Memory consumption went from 206.6 MB to 206.3 MB.
-Total: 4.226100 ms (FindLiveObjects: 0.355600 ms CreateObjectMapping: 0.142100 ms MarkObjects: 3.543600 ms  DeleteObjects: 0.183000 ms)
+Unloading 4933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.2 KB). Loaded Objects now: 5400.
+Memory consumption went from 204.5 MB to 204.2 MB.
+Total: 4.839700 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.401500 ms MarkObjects: 3.774800 ms  DeleteObjects: 0.248600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,281 +186,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 228727.542096 seconds.
-  path: Assets/Shader/DissolveWithNoise.shadergraph
-  artifactKey: Guid(62208ad6011a5274f84a39c96655a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveWithNoise.shadergraph using Guid(62208ad6011a5274f84a39c96655a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 236924.175589 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '09309c9124c9a2cf8d235e903a1aea6f') in 0.695157 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 824.605257 seconds.
-  path: Assets/Shader/Refraction.shadergraph
-  artifactKey: Guid(7c701b477f06be84297d71e9e3c17cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Refraction.shadergraph using Guid(7c701b477f06be84297d71e9e3c17cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1d90bf1fa36aea7c47073f45c97acdc6') in 0.327287 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.143986 seconds.
-  path: Assets/Shader/Refraction 1.shadergraph
-  artifactKey: Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Refraction 1.shadergraph using Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a640921ddc8f8837f2f5cb6efac7d51') in 0.355029 seconds
+ -> (artifact id: '7c5b022a75934550b1f8f6f2fc4982de') in 0.300039 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 5.834044 seconds.
-  path: Assets/Shader/DistortionSmoke.shadergraph
-  artifactKey: Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DistortionSmoke.shadergraph using Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '140e23257eaee0c6f27fe097ad503ce4') in 0.338610 seconds
+  Time since last request: 9.293520 seconds.
+  path: Assets/URP
+  artifactKey: Guid(6769572671dd40e458cd681c58192608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(6769572671dd40e458cd681c58192608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '979e473ff26fd4cebf72630a11a57f1d') in 0.001124 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 230.588103 seconds.
-  path: Assets/Shader/DistortionSmoke.shadergraph
-  artifactKey: Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DistortionSmoke.shadergraph using Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eaca1020f5aa8ae249dc75e366ab30ed') in 0.326445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 58.238089 seconds.
-  path: Assets/Shader/DistortionSmoke.shadergraph
-  artifactKey: Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DistortionSmoke.shadergraph using Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '638eab76d126c5f3f2d5cbaf0fd94534') in 0.315873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 431.141656 seconds.
-  path: Assets/Shader/DistortionSmoke.shadergraph
-  artifactKey: Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DistortionSmoke.shadergraph using Guid(1be6c644f04aa2b459fbee146657ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a1509f6be5bd67c89166c4fb06a099c1') in 0.395587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 7.468013 seconds.
-  path: Assets/Shader/DistortionSmoke.mat
-  artifactKey: Guid(58abe1f334dd11b49a44d4f0327bff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DistortionSmoke.mat using Guid(58abe1f334dd11b49a44d4f0327bff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bdd80011840759daaf415f20412a9b1d') in 0.030280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 4.172626 seconds.
-  path: Assets/Material/DissolveWithNoise.mat
-  artifactKey: Guid(8453a6601b5053d42864ce99b33ab1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveWithNoise.mat using Guid(8453a6601b5053d42864ce99b33ab1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2cf02735d20eaee856f12dc265c5bf08') in 0.378609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1468.530066 seconds.
-  path: Assets/Normal Maps/NormalSmoothMap.jpg
-  artifactKey: Guid(f3888a27591e4624faa358f76f62b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Normal Maps/NormalSmoothMap.jpg using Guid(f3888a27591e4624faa358f76f62b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5b3e344a611a65ac2d8f346cd040b5e8') in 0.327575 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.330341 seconds.
-  path: Assets/Normal Maps/NormalSmoothMap.jpg
-  artifactKey: Guid(f3888a27591e4624faa358f76f62b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Normal Maps/NormalSmoothMap.jpg using Guid(f3888a27591e4624faa358f76f62b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2175b39e1d3dae8571bf64d9c75d6045') in 0.038275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2701.841813 seconds.
-  path: Assets/Shader/DissolveTexture.shadergraph
-  artifactKey: Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveTexture.shadergraph using Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '02fad02070d4c6322fd202155703d7c8') in 0.735668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 75.872089 seconds.
-  path: Assets/Shader/DissolveTexture.shadergraph
-  artifactKey: Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveTexture.shadergraph using Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2bed60eb9a218abc2091d003138ade6b') in 0.335065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 145.221575 seconds.
-  path: Assets/Shader/DissolveTexture.shadergraph
-  artifactKey: Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveTexture.shadergraph using Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42c536e65daecf85de51a9a8ec3fcd4e') in 0.382590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 23.476384 seconds.
-  path: Assets/Shader/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '25617510adef8eab9b3938ecc1a4dc33') in 0.029670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.912429 seconds.
-  path: Assets/Material/DissolveWithNoise.mat
-  artifactKey: Guid(8453a6601b5053d42864ce99b33ab1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveWithNoise.mat using Guid(8453a6601b5053d42864ce99b33ab1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a8435325f0e3edfdcd19458390d2b05f') in 0.033757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.645445 seconds.
-  path: Assets/Material/DistortionSmoke.mat
-  artifactKey: Guid(58abe1f334dd11b49a44d4f0327bff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DistortionSmoke.mat using Guid(58abe1f334dd11b49a44d4f0327bff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '14da64b8fde48750bc42a57184b662b6') in 0.443102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 166.393450 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ebab067f760385f05184fdcbf909482') in 0.079117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 18.428213 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b41bc794d6731b6ae13bedf0f7686379') in 0.358311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 139.579754 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '527240cb91f3a28bb8736f86f29986e7') in 0.395693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.929271 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5066b72f1a7da13d3c5380216bd2fc08') in 0.036220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 52.536587 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '87f1158ba0ee169d7b163220707af862') in 0.346352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 95.528203 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '67bcbd501911902a885d0213ba53d911') in 0.119704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 87.266151 seconds.
-  path: Assets/Material/DissolveTexture.mat
-  artifactKey: Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/DissolveTexture.mat using Guid(7dffdc4485785044ba1babf0f432a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8cc6d9daeba477eaf0be98b0b883f10') in 0.328987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 74.016717 seconds.
-  path: Assets/Textures/MarioKartInterrogation.png
-  artifactKey: Guid(1799ddbc4a9964b4481a7231ee51b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/MarioKartInterrogation.png using Guid(1799ddbc4a9964b4481a7231ee51b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8b6167fdaf59b2915737cb774491d714') in 0.079489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1199.731307 seconds.
-  path: Assets/Shader/RecolorMask.shadergraph
-  artifactKey: Guid(110bee3c85e8a1b4494f6e1267ff38e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/RecolorMask.shadergraph using Guid(110bee3c85e8a1b4494f6e1267ff38e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2747ded86bec3266f14a370aa9437b19') in 0.687508 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.967321 seconds.
-  path: Assets/Shader/DissolveWithNoise.shadergraph
-  artifactKey: Guid(62208ad6011a5274f84a39c96655a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveWithNoise.shadergraph using Guid(62208ad6011a5274f84a39c96655a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '87948a402096947aa75eabbe01cbdb4d') in 0.050240 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.087461 seconds.
-  path: Assets/Shader/DissolveTexture.shadergraph
-  artifactKey: Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/DissolveTexture.shadergraph using Guid(4a8ef6c6f63d6414e98e5363f00cea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '76376d63dfb68ec6e30b56f9f93f8cf6') in 0.353748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
