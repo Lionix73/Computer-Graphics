@@ -7,7 +7,7 @@ Me base en el ejercicio realizado para el ForceField y poder utilizar lo aprendi
 
 ![Distorsion](https://github.com/user-attachments/assets/14ee8677-50de-4703-b025-d30749060eff)
 
-![image](https://github.com/user-attachments/assets/3560eaa2-723e-4fd7-9dbf-613123da73a9)
+![image](https://github.com/user-attachments/assets/71fdd6ff-0262-44a2-98bc-5f4fd296fd26)
 
 ### Movimiento en Humo
 En este ejercicio utilice los conocimientos utilizados en el ejercicio grupal 2, pues para la distorsion que realize era necesario el uso de una mascara transparente con respecto a una UV en movimiento.
