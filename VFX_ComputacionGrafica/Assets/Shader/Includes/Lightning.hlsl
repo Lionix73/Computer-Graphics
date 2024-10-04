@@ -1,20 +1,23 @@
 //#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 //#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
 
-void GetMainLight_float(float3 positionWS, out float3 direction, out float3 color){
+void GetMainLight_float(float3 positionWS, out float3 direction, out float3 color, out float shadowAttenuation){
     #if !defined(SHADERGRAPH_PREVIEW)
     Light light;
-
     float4 shadowCoord = TransformWorldToShadowCoord(positionWS);
-
     light = GetMainLight(shadowCoord);
-
     direction = light.direction;
-
     color = light.color;
+
+    ShadowSamplingData shadowData = GetMainLightShadowSamplingData();
+    float shadowIntensity = GetMainLightShadowStrength();
+
+    shadowAttenuation = SampleShadowmap(shadowCoord, TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture), shadowData, shadowIntensity, false);
+
     #else
     direction = float3(1, 1, -1);
     color = 1;
+    shadowAttenuation = 1;
     #endif
 }
 
