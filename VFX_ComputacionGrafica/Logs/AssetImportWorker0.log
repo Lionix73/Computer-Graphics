@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53408
+52552
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34864] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3102052510 [EditorId] 3102052510 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31188] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 640499748 [EditorId] 640499748 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34864] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3102052510 [EditorId] 3102052510 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31188] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 640499748 [EditorId] 640499748 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 855.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 26.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.125879 seconds.
-- Loaded All Assemblies, in  4.190 seconds
+Registered in 0.010087 seconds.
+- Loaded All Assemblies, in  0.529 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.321 seconds
-Domain Reload Profiling: 4510ms
-	BeginReloadAssembly (3490ms)
+- Finished resetting the current domain, in  0.341 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (192ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (193ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (3486ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (188ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (446ms)
-			TypeCache.Refresh (444ms)
-				TypeCache.ScanAssembly (425ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (322ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (342ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 4510ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.410 seconds
-Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.059 seconds
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 8238ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1936ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (35ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (7115ms)
-		LoadAssemblies (6954ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (801ms)
+		LoadAssemblies (579ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (830ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (873ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (553ms)
+		SetupLoadedEditorAssemblies (615ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5988.
-Memory consumption went from 301.6 MB to 300.5 MB.
-Total: 5.801300 ms (FindLiveObjects: 0.529100 ms CreateObjectMapping: 0.257400 ms MarkObjects: 4.352400 ms  DeleteObjects: 0.660600 ms)
+Unloading 5527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5987.
+Memory consumption went from 301.0 MB to 299.9 MB.
+Total: 7.131300 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.258600 ms MarkObjects: 4.390300 ms  DeleteObjects: 2.014700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,177 +180,465 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1429873.376347 seconds.
-  path: Assets/Shader/ToonLit.shadergraph
-  artifactKey: Guid(47717566afd0f7c4d88e4b589b05e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/ToonLit.shadergraph using Guid(47717566afd0f7c4d88e4b589b05e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870d536ec457162f15070dd608fb1a08') in 1.799249 seconds
-Number of updated asset objects reloaded before import = 3
+  Time since last request: 1859722.890326 seconds.
+  path: Assets/Shader/DisstortedBlob.shadergraph
+  artifactKey: Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlob.shadergraph using Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5476895979e91dbef09e956062546d') in 1.190586 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 1250.115310 seconds.
-  path: Assets/Scenes/NeutralScene 1.unity
-  artifactKey: Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NeutralScene 1.unity using Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f463f8240537952721d538e3566f25') in 0.005746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.653003 seconds.
-  path: Assets/Scenes/VFX10.unity
-  artifactKey: Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFX10.unity using Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ac64ab351e97e43ff1f371d9bdba45') in 0.001432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 771.559025 seconds.
-  path: Assets/Material/AstraSmoke
-  artifactKey: Guid(3ccb04ba28c953b4a9dd2722616918c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke using Guid(3ccb04ba28c953b4a9dd2722616918c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe72d4297df87466321d63cf37fdff') in 0.002989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.402100 seconds.
-  path: Assets/Material/AstraSmoke/GoldSphereRadius.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GoldSphereRadius.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be31e7c03e6f8a187821121b0691446') in 0.193034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 17.419005 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e392fc1ab6aecbe70ed57938bb7fc608') in 0.027542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 35.892301 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab043e3dc81e3546e165c3a588d548be') in 0.208298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 20.756727 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a933d76a24e6fdcd663fe25ae53f4051') in 0.025602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.841375 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaeab87ca00b1f9d9d9010ad9c7fec6') in 0.028024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 28.009905 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8debd3cfe2394ce4941a212c0c51cabc') in 0.222775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.488037 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e306b126aa5e5280c86c77ae5c34e') in 0.022798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.730811 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978e4d62369b90ddc6e55f437d0a62dd') in 0.023380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.647920 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb15eb199e80c61ac6877105d11aeebc') in 0.021050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 113.190986 seconds.
-  path: Assets/Material/AstraSmoke/GlowLitOrange.mat
-  artifactKey: Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/GlowLitOrange.mat using Guid(f8e08111816c5bc41b6c0c1715855935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e617f54a0545afb2f24bff92e162853') in 0.027428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 533.214820 seconds.
-  path: Assets/Textures/Flair.png
-  artifactKey: Guid(66c6d981c8a721842bf9e275c261f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flair.png using Guid(66c6d981c8a721842bf9e275c261f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959562b4b44fa6ab9c09632639f4715f') in 0.394346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.198466 seconds.
-  path: Assets/Textures/Flair.png
-  artifactKey: Guid(66c6d981c8a721842bf9e275c261f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Flair.png using Guid(66c6d981c8a721842bf9e275c261f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9efc5a88e8d0a5760ae18dd01f98e4') in 0.035441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.827114 seconds.
-  path: Assets/Prefab/HexForceField.prefab
-  artifactKey: Guid(435c2a42d1894e142b0f744e8280e311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HexForceField.prefab using Guid(435c2a42d1894e142b0f744e8280e311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77b443b7b0796e7f344b9cb04266e27') in 0.348634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 38.283362 seconds.
-  path: Assets/Textures/FlairEmitt.mat
-  artifactKey: Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/FlairEmitt.mat using Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b9f22fe9a30e12a137c36272b059a') in 0.047152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.023208 seconds.
-  path: Assets/Material/ToonLit/ToonLit.mat
-  artifactKey: Guid(0aca3bfc2a64da84ba71c25a2fe1f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/ToonLit/ToonLit.mat using Guid(0aca3bfc2a64da84ba71c25a2fe1f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8c7b8028bdf198cd15b8d0c7a936df') in 0.041715 seconds
+  Time since last request: 9.293769 seconds.
+  path: Assets/Shader/DisstortedBlobGradient.shadergraph
+  artifactKey: Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlobGradient.shadergraph using Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be26cbb64fe74a80be8c98a4973a6413') in 0.411944 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 12.677415 seconds.
-  path: Assets/Material/AstraSmoke/FlairEmitt.mat
-  artifactKey: Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/FlairEmitt.mat using Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a12a995be95256fc1ccb3714fcfdad') in 0.031928 seconds
+  Time since last request: 672.983826 seconds.
+  path: Assets/Textures/DisstortedBlob.png
+  artifactKey: Guid(afaada27c76daa04ab90f894362c12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DisstortedBlob.png using Guid(afaada27c76daa04ab90f894362c12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bd158df484109031e9f3831f10f682') in 0.492626 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 17.480106 seconds.
+  Time since last request: 4.593229 seconds.
+  path: Assets/Textures/DisstortedBlob.png
+  artifactKey: Guid(afaada27c76daa04ab90f894362c12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DisstortedBlob.png using Guid(afaada27c76daa04ab90f894362c12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50fe911d5ae33e40bb9337e9b2aa981') in 0.041081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 458.564987 seconds.
+  path: Assets/Shader/DisstortedBlobGradient.shadergraph
+  artifactKey: Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlobGradient.shadergraph using Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6114f37953eddf84d419afd3f8dd284') in 0.550408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 216.856452 seconds.
+  path: Assets/Shader/DisstortedBlobGradient.shadergraph
+  artifactKey: Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlobGradient.shadergraph using Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7947c74b331e636337b874d21d70427') in 0.371538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 70.629072 seconds.
+  path: Assets/Shader/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc531b2527d4c5f99634c391141a66') in 0.043353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 185.725377 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237a0b232d722a2f2ec5ce35ef1f3e36') in 0.037599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 88.672253 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6051d7ccccb76e7c95d03411ce949e0') in 0.363629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 15.268830 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6260e2bf723bebf30b4ce0d46ddba8') in 0.024718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.907068 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f8c263ffd44be1634d9bbb291113c') in 0.021646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 195.299520 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob.mat
+  artifactKey: Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob.mat using Guid(0c20e0a5ce2e9ca4ebcebd5ea4fe167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb6509cfa3c5d7df0289fc0aa6a2d87') in 0.478918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 37.225629 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob 1.mat
+  artifactKey: Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob 1.mat using Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0688206a3c712804e675df8c3615436') in 0.024238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.305426 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob 1.mat
+  artifactKey: Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob 1.mat using Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a7766b953d4cfd934d6b805a686763') in 0.022278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.200423 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlob 1.mat
+  artifactKey: Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlob 1.mat using Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864e431d9327c6fdf5179e5cd387aaaf') in 0.023452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 127.198984 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlobGradient.mat
+  artifactKey: Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlobGradient.mat using Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b609e2e7c3df956ecf15e1cbba8318') in 0.035064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 51.734629 seconds.
+  path: Assets/Material/AstraSmoke/DisstortedBlobGradient.mat
+  artifactKey: Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/DisstortedBlobGradient.mat using Guid(87a4d0d398128b8409ad075e45830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baa562830219c96e2c2a13bdf99b8fc') in 0.028208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 59.739868 seconds.
   path: Assets/Material/AstraSmoke/FlairEmitt.mat
   artifactKey: Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/FlairEmitt.mat using Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1161fb6c25ed537301990ccbdc6208df') in 0.028759 seconds
+Start importing Assets/Material/AstraSmoke/FlairEmitt.mat using Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1c2e4342dc6844b60de8786263e0c6') in 0.120595 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 13.524298 seconds.
-  path: Assets/Material/AstraSmoke/FlairEmitt.mat
-  artifactKey: Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/FlairEmitt.mat using Guid(9a7c37f9a2e6d9843b80a78b26f71996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decc40de71b8f6f69251fe87eeb7e85b') in 0.023753 seconds
+  Time since last request: 154.366074 seconds.
+  path: Assets/Shader/ShaderLit.shadergraph
+  artifactKey: Guid(bdee9d03e695bdb419a889090856926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/ShaderLit.shadergraph using Guid(bdee9d03e695bdb419a889090856926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/ShaderLit': 'GetMainLight_float': no matching 2 parameter function at line 335 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader error in 'Shader Graphs/ShaderLit': 'GetMainLight_float': no matching 2 parameter function at line 335 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+ -> (artifact id: 'c5e696e3ca89ba07a4338b68dd6011a5') in 0.195913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 633.465341 seconds.
+  path: Assets/Shader/MatCap.shadergraph
+  artifactKey: Guid(9cd577035a2cb3740a5af8953dcebbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MatCap.shadergraph using Guid(9cd577035a2cb3740a5af8953dcebbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be04cabc49fbcfed9f766c351e0b2f') in 0.121560 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Material/Lit/Lit.mat
+  artifactKey: Guid(fab9dfab90157ac4abead95028b1b4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Lit/Lit.mat using Guid(fab9dfab90157ac4abead95028b1b4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/ShaderLit': 'GetMainLight_float': no matching 2 parameter function at line 335 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader error in 'Shader Graphs/ShaderLit': 'GetMainLight_float': no matching 2 parameter function at line 335 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLit': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+ -> (artifact id: '843a22a08f36905fb9e8c4b11e86970c') in 0.064978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.321950 seconds.
+  path: Packages/com.unity.visualeffectgraph/Shaders/DefaultVFXSG.shadergraph
+  artifactKey: Guid(9d119ea62212af645b58c51d9b0f8276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Shaders/DefaultVFXSG.shadergraph using Guid(9d119ea62212af645b58c51d9b0f8276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11da82c05c61414e7a59bfdc332215a') in 0.519662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.645687 seconds.
+  path: Assets/Shader/DisstortedBlobGradient.shadergraph
+  artifactKey: Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/DisstortedBlobGradient.shadergraph using Guid(71ba8c984ed6d4640b5eba5f7f8e1d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd4ba60a06c462e39431d0d0aeaaf48') in 0.034548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Material/ForceField/ForceField.mat
+  artifactKey: Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/ForceField/ForceField.mat using Guid(831893d130a34d844a79ba742b93fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676944c20370e4a084c94d26dd2e4bee') in 0.065139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 356.395601 seconds.
+  path: Assets/Textures/HardEdgeParticle.png
+  artifactKey: Guid(9e82d264e3651a74a96e536a91818b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HardEdgeParticle.png using Guid(9e82d264e3651a74a96e536a91818b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42734d6f0982835977b26ff784df9bed') in 0.120527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.905051 seconds.
+  path: Assets/Textures/HardEdgeParticle.png
+  artifactKey: Guid(9e82d264e3651a74a96e536a91818b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HardEdgeParticle.png using Guid(9e82d264e3651a74a96e536a91818b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e988c6afda2586b3cca5a8390525d') in 0.023483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.437207 seconds.
+  path: Assets/Material/AstraSmoke/Hard.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/Hard.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e1f72b6267d64ee805c6d906a3cddd') in 0.080347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.769077 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4978a232d5587e81000843d9b67a9183') in 0.018865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.300877 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e6f3dc8a470eb6acc55465b7d8df14') in 0.028062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.256408 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e558d130650a89c6eade8a6d0d753f') in 0.013980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.786995 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce38bd16de56d088873092ec0ac84a52') in 0.021086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 53.230642 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcefc9826a9d445799828da52320b96') in 0.032348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.408211 seconds.
+  path: Assets/Material/AstraSmoke/HardEdgeParticle.mat
+  artifactKey: Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AstraSmoke/HardEdgeParticle.mat using Guid(10b5659c55c4be940a86132c7923aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14fee805fd9d78a6d30516c19124d10') in 0.027094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 479.704098 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga
+  artifactKey: Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga using Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7ad264dc83e24cf7ef1d833a264d51') in 0.057239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.696166 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Particles.hlsl
+  artifactKey: Guid(4273cde13e0f6f9428ee53ed68036d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Particles.hlsl using Guid(4273cde13e0f6f9428ee53ed68036d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd29c27afd70ec2b842d39c2e08ac7') in 0.007500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019984 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/Particles@2x.png
+  artifactKey: Guid(a788682fa62292b41917b1a00e14c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/Particles@2x.png using Guid(a788682fa62292b41917b1a00e14c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449bcebdbb1c95081363e80a6b2cf84c') in 0.022752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.098300 seconds.
+  path: Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef
+  artifactKey: Guid(9c6dda6c7922c624cb7ea9a7f1c7d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef using Guid(9c6dda6c7922c624cb7ea9a7f1c7d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b072e5247429ed6a3e6c6d6604837f5') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.796020 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/DefaultSubgraphBlock.vfxblock
+  artifactKey: Guid(6952bb3b42e083e4bb41a64cd34ce4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/DefaultSubgraphBlock.vfxblock using Guid(6952bb3b42e083e4bb41a64cd34ce4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3a2b06ac8ec096ee457a3fc10d450d') in 0.008075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.700162 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesDepthNormalsPass.hlsl
+  artifactKey: Guid(637c27b6fe6224a06b2b066769d0a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesDepthNormalsPass.hlsl using Guid(637c27b6fe6224a06b2b066769d0a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b62f4044f7e067f65144ddd14ef974c') in 0.004686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.049669 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesEditorPass.hlsl
+  artifactKey: Guid(b75058dfffdae7a41bf0373f3d2f264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesEditorPass.hlsl using Guid(b75058dfffdae7a41bf0373f3d2f264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f5dbb0ff90aef60cd2baf9658e38c6') in 0.003335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.552692 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/ParticlesInstancing.hlsl
+  artifactKey: Guid(9989d64681f299941b8d598b04007e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/ParticlesInstancing.hlsl using Guid(9989d64681f299941b8d598b04007e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7a9ead00bae0ed475f6be876dff38f') in 0.002686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013273 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesLitForwardPass.hlsl
+  artifactKey: Guid(a8d5c97876fe84413b2f630e2debf75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesLitForwardPass.hlsl using Guid(a8d5c97876fe84413b2f630e2debf75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ada88a0029402309665a11ccec5e9') in 0.005609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.157552 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesLitGbufferPass.hlsl
+  artifactKey: Guid(cc421706a0b598946982fee0c0d4bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesLitGbufferPass.hlsl using Guid(cc421706a0b598946982fee0c0d4bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3352346afb0492a6c13243aa3dc8540') in 0.003408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.358581 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesSimpleLitForwardPass.hlsl
+  artifactKey: Guid(d0ccc42c5a0934462a0ff237772dceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesSimpleLitForwardPass.hlsl using Guid(d0ccc42c5a0934462a0ff237772dceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39780fbd6fd60fdd7e9f21018752bfce') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesSimpleLitInput.hlsl
+  artifactKey: Guid(01fa3f8c89aa44160b9a735fc22362d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesSimpleLitInput.hlsl using Guid(01fa3f8c89aa44160b9a735fc22362d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6257c08c7088eeb4eba91c48ee4a2269') in 0.002919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.333020 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/ParticleStrips.png
+  artifactKey: Guid(2913ec7d4622250469a8d03b171e292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/UIResources/VFX/ParticleStrips.png using Guid(2913ec7d4622250469a8d03b171e292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5c70d339171a4985ef701ef3d58574') in 0.023392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.064386 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlitForwardPass.hlsl
+  artifactKey: Guid(a361552991159403bbd785132d5cb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlitForwardPass.hlsl using Guid(a361552991159403bbd785132d5cb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b461a13df897d11c1a45de8f18e6d950') in 0.002866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 649.051462 seconds.
+  path: Assets/Modelos 3D/PoleSphere.fbx
+  artifactKey: Guid(45808235349177a4a8eb25fcd3970721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos 3D/PoleSphere.fbx using Guid(45808235349177a4a8eb25fcd3970721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb83b0392654306f6d1f31b11efecc0') in 0.328281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
