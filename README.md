@@ -1,6 +1,10 @@
 # Computer Graphics
 
-## Ejercicio Grupal 4 
+## Ejercicio Grupal 4
+### Shader
+
+https://github.com/user-attachments/assets/b90277cf-d295-470f-9745-71a27163c417
+ 
 ### Displacement
 Basicamente use el displacement que se nos fue enseñado en la creacion del shader de bandera, pero para que funcione en los dos ejes.
 
