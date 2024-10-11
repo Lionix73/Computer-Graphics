@@ -1,5 +1,49 @@
 # Computer Graphics
 
+## Ejercicio Grupal 4 
+### Displacement
+Basicamente use el displacement que se nos fue enseñado en la creacion del shader de bandera, pero para que funcione en los dos ejes.
+
+![image](https://github.com/user-attachments/assets/458ad444-ec62-4c45-a243-8e650d147fa6)
+
+### Screen Space Refractions
+Esta usa los conocimientos que aprendimos en el Force Field, principalmente usando normal maps y el screen space.
+
+![image](https://github.com/user-attachments/assets/0a14d695-90eb-472f-930d-8226dc1f022c)
+
+![image](https://github.com/user-attachments/assets/6a56746e-0096-4b33-88c5-681decacf532)
+
+### Cubemap Reflections
+Este se basa en los reflejos utilizados para el mario kart pick up.
+
+![image](https://github.com/user-attachments/assets/be7b3cd3-40ba-48d8-8a3c-ed98ef7f7dc9)
+
+### Neblina Por Profunidad
+Para este ejercicio principalmente busque y utilice un video de internet el cual explica como conseguir este efecto por medio de la profunidad de la pantalla y hacer el efecto de `Fog` con un lerp.
+
+![image](https://github.com/user-attachments/assets/dfe10828-6321-45bf-b1cf-ad4e471d6495)
+
+![image](https://github.com/user-attachments/assets/92b3d25c-0fff-4cd9-bd35-7525bdeb55df)
+
+### Espuma En Interseccion y En Picos y Valles
+Para este uso el mismo modulo en el cual en una primera parte utilizo el mismo sub graph de profunidad para determinar la interseccion y en otra parte utilizo un mapa de normales el cual convierto en ruido para poder darle las espumas en las crestas y valles del oleaje.
+
+![image](https://github.com/user-attachments/assets/919cf887-4550-4eb6-aa57-e55850e84ed6)
+
+![image](https://github.com/user-attachments/assets/b96ca262-763c-4980-ab5d-bb1617d4f5f2)
+
+![image](https://github.com/user-attachments/assets/76a2d2a0-176b-4fa8-be3b-105c66058a8e)
+
+### Iluminacion con BlinnPhong y Soporte De Luces Externas
+Aqui basicamente es la combinacion de BlinnPhong usado para el shader de piel realizado en clase y la combinacion del soporte de varias luces usado en shader ToonLit. Para el blinn phong en el cual se encuentran por separado el especular y los gradientes de color de luz suave y dura. Y al final lo unico que cambia es que se agrega una funcion para soportar las diferentes luces de la escena.
+
+![image](https://github.com/user-attachments/assets/544c028c-3193-43f7-8119-0cb655833e61)
+
+![image](https://github.com/user-attachments/assets/ed1ea6e2-c313-43bf-bf5c-123feba0fc78)
+
+![image](https://github.com/user-attachments/assets/0fab62fd-4ab7-4e29-b230-a9f1b05e5275)
+
+
 ## Parcial 2 ShaderGraphs
 
 ### Distorsion
