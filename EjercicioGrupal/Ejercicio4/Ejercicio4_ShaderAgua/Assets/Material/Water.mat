@@ -37,16 +37,24 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MatCap:
         m_Texture: {fileID: 2800000, guid: 027cd17ddb3015645bb7ba57295a6fea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 2d6c640dc9b587b49ad3f05cfeddacd8, type: 3}
+        m_Texture: {fileID: 2800000, guid: dea8868fb567d614a9ff6aa49a94e868, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Reflection_HDR:
         m_Texture: {fileID: 8900000, guid: 0f0beb6aa10dbeb4eb1b5a111c22e991, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeToonAdditionalLightsCustomFunction_927a7859020e4b7992322b5417da1388_Grading_2_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,25 +71,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.4
+    - _Amplitude: 0.05
     - _Cubemap_Reflections: 0
-    - _FoamAmount: 0.6
-    - _FoamCutoff: 0.4
+    - _FoamAmount: 0.5
+    - _FoamCutoff: 0.6
     - _FoamScale: 0.5
-    - _FoamSpeed: 0.2
+    - _FoamSpeed: 0.05
     - _Frequency: 3
-    - _NormalStrenght: 3
+    - _IndexRefraction: 0.2
+    - _NormalStrenght: 0.1
+    - _NormalTiling: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionScale: 0.5
-    - _RefractionSpeed: 0.2
+    - _RefractionSpeed: -0.1
     - _RefractionStrenght: 100
     - _Roughness: 0.2
-    - _WaterDepth: 2.7
-    - _WaterSpeed: 0.5
+    - _SpecularHardness: 20
+    - _WaterDepth: 4
+    - _WaterSpeed: 0.2
     m_Colors:
-    - _DeepWater: {r: 0, g: 0.054818183, b: 0.7283019, a: 0.27450982}
+    - _DeepWater: {r: 0, g: 0.05481816, b: 0.7283019, a: 0.78431374}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.9019608}
     - _IntersectionParams: {r: 0, g: 0, b: 0, a: 0}
-    - _ShallowWater: {r: 0.36037716, g: 0.8949884, b: 1, a: 0.3137255}
+    - _ShallowWater: {r: 0.36037713, g: 0.8949884, b: 1, a: 0.5882353}
   m_BuildTextureStacks: []
