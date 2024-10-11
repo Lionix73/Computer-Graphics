@@ -74,18 +74,18 @@ Material:
     - _Amplitude: 0.05
     - _Cubemap_Reflections: 0
     - _FoamAmount: 0.5
-    - _FoamCutoff: 0.6
-    - _FoamScale: 0.5
-    - _FoamSpeed: 0.05
+    - _FoamCutoff: 0.22
+    - _FoamScale: 0.4
+    - _FoamSpeed: 0.1
     - _Frequency: 3
     - _IndexRefraction: 0.2
-    - _NormalStrenght: 0.1
+    - _NormalStrenght: 0.3
     - _NormalTiling: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionScale: 0.5
     - _RefractionSpeed: -0.1
-    - _RefractionStrenght: 100
+    - _RefractionStrenght: 1000
     - _Roughness: 0.2
     - _SpecularHardness: 20
     - _WaterDepth: 4
