@@ -15,7 +15,7 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59159
+53707
 Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Acer/Desktop/Computacion Grafica/VFX/VFX_ComputacionGrafica
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34056] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3770016990 [EditorId] 3770016990 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [41416] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 4008541375 [EditorId] 4008541375 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34056] Host "[IP] 10.8.122.86 [Port] 0 [Flags] 2 [Guid] 3770016990 [EditorId] 3770016990 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41416] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 4008541375 [EditorId] 4008541375 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 27.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,100 +70,100 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008702 seconds.
-- Loaded All Assemblies, in  0.420 seconds
+Registered in 0.009960 seconds.
+- Loaded All Assemblies, in  0.516 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.299 seconds
-Domain Reload Profiling: 717ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (38ms)
+	RebuildCommonClasses (52ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (146ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (207ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (300ms)
+	FinalizeReload (319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (239ms)
+		SetupLoadedEditorAssemblies (255ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadAttributes (178ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.186 seconds
-Refreshing native plugins compatible for Editor in 7.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 7.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.885 seconds
-Domain Reload Profiling: 2066ms
-	BeginReloadAssembly (374ms)
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1846ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (700ms)
-		LoadAssemblies (669ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (714ms)
+		LoadAssemblies (574ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (277ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (203ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (886ms)
+	FinalizeReload (850ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
+		SetupLoadedEditorAssemblies (645ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5528 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5989.
-Memory consumption went from 301.6 MB to 300.5 MB.
-Total: 10.708000 ms (FindLiveObjects: 0.991400 ms CreateObjectMapping: 0.281100 ms MarkObjects: 5.040600 ms  DeleteObjects: 4.391600 ms)
+Unloading 5531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5992.
+Memory consumption went from 303.5 MB to 302.4 MB.
+Total: 4.735300 ms (FindLiveObjects: 0.499500 ms CreateObjectMapping: 0.317100 ms MarkObjects: 3.437500 ms  DeleteObjects: 0.479400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,81 +180,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2033462.017922 seconds.
-  path: Assets/Shader/AstraSmoke.shadergraph
-  artifactKey: Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmoke.shadergraph using Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf6066541e86bc1b4455c95ef8b0016') in 2.067741 seconds
+  Time since last request: 2221218.612421 seconds.
+  path: Assets/Scenes/VFX10.unity
+  artifactKey: Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFX10.unity using Guid(1f8b9e8da53e3de498320bec610abfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f429f24518ed5df1b427bbc2d03e14') in 0.013327 seconds
 Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.971268 seconds.
+  path: Assets/Material/Lit/ShaderLitSkin.mat
+  artifactKey: Guid(a1c7e867dc19a4e46a9873b37207d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Lit/ShaderLitSkin.mat using Guid(a1c7e867dc19a4e46a9873b37207d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/ShaderLitSkin': 'GetMainLight_float': no matching 2 parameter function at line 379 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader error in 'Shader Graphs/ShaderLitSkin': 'GetMainLight_float': no matching 2 parameter function at line 379 (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(27) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': comma expression used where a vector constructor may have been intended at Assets/Shader/Includes/Lightning.hlsl(28) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader warning in 'Shader Graphs/ShaderLitSkin': implicit truncation of vector type at Assets/Shader/Includes/Lightning.hlsl(40) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+ -> (artifact id: '6587ab8c6e0f2d41c4f60e9f2e5485f5') in 0.459957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6142.017415 seconds.
+  path: Assets/Shader/ForceField.shadergraph
+  artifactKey: Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/ForceField.shadergraph using Guid(7df163412eab4cc4c917dedd19b61962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69fd18e39c77e31ddb34811d36c625e') in 0.766380 seconds
+Number of updated asset objects reloaded before import = 1
 Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2508.792948 seconds.
-  path: Assets/Shader/AstraSmoke.shadergraph
-  artifactKey: Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmoke.shadergraph using Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd963003f5fa0cc31a88ab2367450f50e') in 1.122753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 13.645704 seconds.
-  path: Assets/Shader/AstraSmokeMat.mat
-  artifactKey: Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmokeMat.mat using Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbebf3a3173cabdcf2274147b6aeb547') in 0.042988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 49.935250 seconds.
-  path: Assets/Material/AstraSmoke/AstraSmokeMat.mat
-  artifactKey: Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/AstraSmokeMat.mat using Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5de8650c5af4326b70b7f28541662f1') in 0.622783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.573252 seconds.
-  path: Assets/Material/AstraSmoke/AstraSmokeMat.mat
-  artifactKey: Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/AstraSmoke/AstraSmokeMat.mat using Guid(15a90f964ed9042419c3af6239a4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f33a973b7b8812336415338bdbdecc') in 0.295204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.302025 seconds.
-  path: Assets/Shader/AstraSmoke.shadergraph
-  artifactKey: Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmoke.shadergraph using Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212ba93aa336e8c4eef472014e2349c8') in 0.035465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 877.431875 seconds.
-  path: Assets/Shader/AstraSmoke.shadergraph
-  artifactKey: Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmoke.shadergraph using Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97591255b395ffbbc8c1d1f97fcfd15') in 0.630695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 30.411542 seconds.
-  path: Assets/Shader/AstraSmoke.shadergraph
-  artifactKey: Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/AstraSmoke.shadergraph using Guid(836aea4dd47fced4fad7394d2d752ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d80d7aa90685a0a1d40d1253fe9f4') in 0.027481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 300.259095 seconds.
-  path: Assets/Textures/StarsMap.png
-  artifactKey: Guid(1ea2bb4bec19c834ab67c9a257b30ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/StarsMap.png using Guid(1ea2bb4bec19c834ab67c9a257b30ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133faa799a0ad610af91f430c5fd855') in 0.675599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.383328 seconds.
-  path: Assets/Textures/StarsMap.png
-  artifactKey: Guid(1ea2bb4bec19c834ab67c9a257b30ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/StarsMap.png using Guid(1ea2bb4bec19c834ab67c9a257b30ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a27af856618fb61a54783bebc2485') in 0.034475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
