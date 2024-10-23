@@ -4,7 +4,7 @@ Here’s an enhanced English version of your README file with a more polished an
 
 # Computer Graphics
 
-## Group Exercise 4
+## Group Exercise 4 (Solo Effort Too ._.)
 ### Shader Exploration
 
 [Shader Project Repository](https://github.com/user-attachments/assets/b90277cf-d295-470f-9745-71a27163c417)
