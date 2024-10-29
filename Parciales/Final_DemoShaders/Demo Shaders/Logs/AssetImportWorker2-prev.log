@@ -1,0 +1,945 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Final_DemoShaders/Demo Shaders
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61932
+Successfully changed project path to: C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Final_DemoShaders/Demo Shaders
+C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Final_DemoShaders/Demo Shaders
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24596]  Target information:
+
+Player connection [24596]  * "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 2428035815 [EditorId] 2428035815 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-PM0FQCBJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24596] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 1989.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Desktop/Computacion Grafica/VFX/Parciales/Final_DemoShaders/Demo Shaders/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.396037 seconds.
+- Loaded All Assemblies, in  8.401 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 468 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 9371ms
+	BeginReloadAssembly (5813ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (518ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (460ms)
+	LoadAllAssembliesAndSetupDomain (1599ms)
+		LoadAssemblies (5811ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1595ms)
+			TypeCache.Refresh (1593ms)
+				TypeCache.ScanAssembly (1287ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (721ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.161 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.950 seconds
+Domain Reload Profiling: 10106ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (8927ms)
+		LoadAssemblies (8098ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (920ms)
+			TypeCache.Refresh (862ms)
+				TypeCache.ScanAssembly (773ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (951ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 6177.
+Memory consumption went from 235.7 MB to 234.6 MB.
+Total: 5.102300 ms (FindLiveObjects: 0.567800 ms CreateObjectMapping: 0.326000 ms MarkObjects: 3.477600 ms  DeleteObjects: 0.718400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1383962.131138 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3099f22d15fe1a87f0227fed8157b2b2') in 0.054657 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 36.109126 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a30939a0c6f4cd6684327a82ed63f359') in 0.004613 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.065057 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f43f8680d426d62f85f2b388bee53fb8') in 0.003197 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.472096 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a3c3119bf54ead682773690ba7cce62') in 0.002929 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.239735 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '425306d41606e0715fca52400103b696') in 0.002727 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 22.614678 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a02009d5f77810357cf1a0cdab18132') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 9.691539 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aebbb0a085e32ff21d23ffa468f552d4') in 0.003033 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 103.366913 seconds.
+  path: Assets/Shaders/FireShader.shadergraph
+  artifactKey: Guid(80e68a974e50d164497517eb565684ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FireShader.shadergraph using Guid(80e68a974e50d164497517eb565684ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9acaecbd8686fe2612001f8db822d9b') in 0.795832 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 133.808625 seconds.
+  path: Assets/Shaders/FireShader.shadergraph
+  artifactKey: Guid(80e68a974e50d164497517eb565684ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FireShader.shadergraph using Guid(80e68a974e50d164497517eb565684ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee607158fdd1b1d6dd4136378d08b07b') in 0.347320 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 10.142190 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d637013d30fe09941db3ffc6fa75c7b') in 0.326037 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 23.662736 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56c35d7b4ceeb66391726c6cc2aeb883') in 0.007413 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 30.850606 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50d8fd6b3c58e53ae7ee09a4a4872412') in 0.350367 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 7.391895 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6faf1b5024ae2d87cd0f50f913569d8c') in 0.360804 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.879224 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '388168582e727ad0df516d31cafebe60') in 0.395787 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.416287 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aeeff4545cf44389243079e23135461f') in 0.004705 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 80.216032 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36102c04ac5e4645752fdffee6b1d213') in 0.009504 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 266.598785 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6a8a6d14df0c6ad8039e2809bfcc3fa') in 0.405976 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.514455 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8736c39cea7cab1660f11c48f7614a2') in 0.009430 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 68.363936 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f94c9d74b39cdf8a9d2ab0d110cefe95') in 0.009248 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 55.623515 seconds.
+  path: Assets/Texture/FireFlipBookBlackBG.png
+  artifactKey: Guid(210a5f97183546c4dae962b92aa8c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/FireFlipBookBlackBG.png using Guid(210a5f97183546c4dae962b92aa8c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a208f247b51e002670cece469b1baef') in 0.248501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.193424 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '792ea4454c947c814b816003be2668ca') in 0.338483 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 34.295811 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb45e5f1d1d5c04562feae1c5302da36') in 0.010093 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 12.715277 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '351254d83f7bd4ca71b1f72b0414c010') in 0.011345 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 11.859006 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a35d1d7f2471577951ee495de7167be4') in 0.007783 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.502773 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37921edd10406a92f65039c051bf479f') in 0.006997 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.067129 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa28222f762d568ee20dbd2b0c4181df') in 0.005745 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 13.325982 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67c52e539f95ba199aaa5a7154fb4224') in 0.006492 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.507859 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5de7047d11031b2f29c6bd4e566d0735') in 0.010708 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.717125 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c90e9d92f82d905b4d4ed2429c47b21') in 0.005540 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 10.533198 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09a7250231490d9b00cacde6077239e5') in 0.008147 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 31.392337 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df925ceccac355abbe16e6ae8cfb5f77') in 0.006326 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 14.512683 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa53b94e318a0ee971537f81f4550ca4') in 0.007023 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 38.776944 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '964ad998a3e8d3ca47062ac57c215b07') in 0.006650 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.269385 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ded470655f20feb54d0e1050b2f64f37') in 0.007264 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 32.740970 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06747d76611477ad6b9a69a35bc59144') in 0.005298 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.997708 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2296719cc86cbe93875a0bde8ec00722') in 0.004706 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 12.199431 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1934ecd154bddd64daa226e728b704b9') in 0.003369 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 198.115378 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7392306e059c61d55926d83ca0c72d3c') in 0.006796 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 57.558216 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aaa52b3b3a5a828607ba86cf79670bf2') in 0.008679 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 37.002970 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1957e445b40ee847b39d8108f808b9c8') in 0.005170 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 18.732897 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1876e6bc70ff13a7df1ffd715b621890') in 0.004174 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 35.923530 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afde0d46876958733896c61714619261') in 0.005719 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4199.247535 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7717eb1c5f145704bad0a0d619f32467') in 0.115689 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.346258 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4c644b7e17fd8fec862d807d3838885') in 0.007535 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.866954 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75a7f70d4aa5b40cff43d31e7f5a34fb') in 0.010561 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 36.950862 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c9f38d5d0c64f5312cb018599e0112e') in 0.009378 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.377745 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f307416f606b42a830d9d13b9ed325a1') in 0.007931 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 16.410392 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8058f5246e31c1dfcf804ecf83abddd0') in 0.008539 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.893365 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f107437076ce1ee32beb69dd18632585') in 0.008851 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.944736 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed7a60652fc24a9e40cccecd9898fcfb') in 0.007290 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.134961 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09fe4f594bd1632db21c901fdf2cd86f') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 15.747187 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9b376ec5447884bd653da926c76c7d0') in 0.008266 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.355778 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8783c7f0cdb59c1056b0a00fdc20ab4') in 0.009130 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 109.145416 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f0f8aabc4e97cbec2b39192945aff7f') in 0.009921 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.857238 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '569ec89c126dbb6b71fd9a622d37e3c5') in 0.007959 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.110043 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2146d914a78deb784aedfab8ce1fc7f') in 0.008012 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.516157 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b70af80e7977bbdbc9eca44379aa9ec') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.973667 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de2ef57e875a6cef363e3d3a71b10f24') in 0.008148 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 48.247648 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2789667f0348269afa92e306c0073a15') in 0.007119 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.166738 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1d46b9015caf151ba0f6bc8683d10f5') in 0.016152 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.729759 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'adb5f5babe31df7a5f92dff9c3b73e03') in 0.009022 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 30.909325 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56a05c647ae6c3014ec2253d6547074c') in 0.009977 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.011780 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d6d96a29c3664fe7ccdb9c8c1f49e8e') in 0.007325 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 11.688436 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3072d325e494c45533284cd69b4bbb8') in 0.007520 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.884575 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0704dd8d3f4db3ca0829a9a8171987c3') in 0.009130 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.439039 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50600d746bbc38696de311aaeb4c925e') in 0.028510 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 16.922536 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b91fd311eaa685674a6958e476425f38') in 0.013621 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.106816 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6d0b38daff46ccb4fb2104ca8171016') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 8.883026 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '148932377bd2f4df63e1310a6b4b0b63') in 0.014822 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 25.662299 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50cfd7d426eee0f9557ca12d86cd40e0') in 0.014148 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 22.227566 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84157967c2b91db4c5d5d6128f385a11') in 0.012746 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 15.412208 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08dd72b3165af68703ab816bc002a9fd') in 0.014076 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.806287 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9017f8dd8ea3f9552eeeb105dda45d67') in 0.014638 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.642063 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f19a7f59ae6ea1c1aad1e1d11a6a166f') in 0.014322 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 25.115569 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f85a6ae2f09cdbf5869b609c38d588c9') in 0.018456 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 190.098281 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73cfa4ace9dd9d85efb18bfeea00650f') in 0.016315 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.419606 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f9046c2b36d83dd01ed1798a4be0577') in 0.018350 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.200492 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e43919402a4d1d74c36b27b4d83b2a7') in 0.017199 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.292608 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65bcb8da95e755220b445519f2b97b67') in 0.014257 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 695.461165 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fca75eaf837b55df6d24cb5893a152cb') in 0.047145 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.497855 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df07b0ace3c7890dfb477051e32e505e') in 0.011739 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 22.782040 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bb13785983954bf9dadaab143b002c0') in 0.010494 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 17.277606 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab627b668eabdc1c74ed1b4059a50f66') in 0.018634 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 15.625818 seconds.
+  path: Assets/VFX Graphs/Fire.vfx
+  artifactKey: Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/Fire.vfx using Guid(f77cbfaa4dc3e774eabc61cb37b491e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5cc28aad07e0e5959d2d3f85fb4cca09') in 0.013426 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9

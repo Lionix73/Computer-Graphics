@@ -11,6 +11,8 @@ public class ElectrinLine : MonoBehaviour
     [SerializeField] private int pointCount;
     [SerializeField] private float toggleInterval = 0.05f;
     [SerializeField] private float randomness = 0.5f;
+    [SerializeField] private float thickness = 0.3f;
+    
 
     void Start()
     {
@@ -18,8 +20,14 @@ public class ElectrinLine : MonoBehaviour
         lineRenderer.widthMultiplier = 0.1f;
         lineRenderer.positionCount = pointCount;
         lineRenderer.material = material;
+        
 
         StartCoroutine(ToggleLightning());
+    }
+
+    void Update()
+    {
+        UpdateThickness(thickness);
     }
 
     private IEnumerator ToggleLightning()
@@ -53,5 +61,10 @@ public class ElectrinLine : MonoBehaviour
             );
             lineRenderer.SetPosition(i, startPoint.transform.position + step * i + randomOffset);
         }
+    }
+
+    private void UpdateThickness(float value)
+    {
+        lineRenderer.widthMultiplier = value;
     }
 }

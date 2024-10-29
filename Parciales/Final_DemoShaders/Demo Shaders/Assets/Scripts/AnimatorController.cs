@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using Cinemachine;
 
 public class AnimatorController : MonoBehaviour
 {
@@ -31,6 +32,9 @@ public class AnimatorController : MonoBehaviour
     [SerializeField] private float preInvocationDelay = 0.3f;
     [SerializeField] private float invocationDelay = 0.6f;
 
+    [Header("Camera Shake")]
+    [SerializeField] private CinemachineImpulseSource impulseSource;
+
     private Vector3 destination;
     private GroundSlash groundSlash;
 
@@ -54,45 +58,63 @@ public class AnimatorController : MonoBehaviour
         preInvocationPS.transform.position = invocationPoint.position;
 
         if (animator != null){
-            if (Input.GetKeyDown(KeyCode.Alpha1) && !poweringUp)
+            if (Input.GetKeyDown(KeyCode.Alpha1) && !poweringUp && !jumpAttacking && !groundSlashing)
             {
-                animator.SetTrigger("PowerUp");
-                powerUpEffect.Play();
-                StartCoroutine(ChangeLayerWithDelay(electricVFX, initialDelayPowerUp, durationPowerUp));
-                StartCoroutine(ActivateParticleSystemWithDelay(electricPS, initialDelayPowerUp));
-
-                poweringUp = true;
-                StartCoroutine(ResetBool(poweringUp, 3f));
-
-                StartCoroutine(ResetPos(3f));
+                PowerUp();
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2) && !jumpAttacking)
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && !jumpAttacking && !groundSlashing && !poweringUp) 
             {
-                animator.SetTrigger("JumpAttack");
-                LightningTrailVFX.Play();
-                StartCoroutine(ActivateParticleSystemWithDelay(jumpShockWavePS, 0.6f));
-                StartCoroutine(ActivateWithDelay(FireballShockWaveVFX, smashGroundDelay, 0.7f));
-                StartCoroutine(ActivateParticleSystemWithDelay(smashGroundPS, smashGroundDelay));
-
-                jumpAttacking = true;
-                StartCoroutine(ResetBool(jumpAttacking, 4f));
-
-
-                StartCoroutine(ResetPos(4f));
+                JumpAttack();
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) && !groundSlashing)
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && !groundSlashing && !jumpAttacking && !poweringUp)
             {
-                animator.SetTrigger("GroundSlash");
-                Invoke("InstantiateGroundSlash", 1.2f);
-                StartCoroutine(ActivateParticleSystemWithDelay(preInvocationPS, preInvocationDelay));
-                StartCoroutine(ActivateParticleSystemWithDelay(invocationPS, invocationDelay));
-
-                groundSlashing = true;
-                StartCoroutine(ResetBool(groundSlashing, 3.5f));
-
-                StartCoroutine(ResetPos(3.5f));
+                GroundSlash();
             }
         }
+    }
+
+    public void PowerUp(){
+        animator.SetTrigger("PowerUp");
+        powerUpEffect.Play();
+
+        Invoke("Shake", initialDelayPowerUp);
+
+        StartCoroutine(ChangeLayerWithDelay(electricVFX, initialDelayPowerUp, durationPowerUp));
+        StartCoroutine(ActivateParticleSystemWithDelay(electricPS, initialDelayPowerUp));
+
+        poweringUp = true;
+        StartCoroutine(ResetBool(poweringUp, 3f));
+
+        StartCoroutine(ResetPos(3f));
+    }
+
+    public void JumpAttack(){
+        animator.SetTrigger("JumpAttack");
+        LightningTrailVFX.Play();
+
+        Invoke("Shake", smashGroundDelay);
+
+        StartCoroutine(ActivateParticleSystemWithDelay(jumpShockWavePS, 0.6f));
+        StartCoroutine(ActivateWithDelay(FireballShockWaveVFX, smashGroundDelay, 0.7f));
+        StartCoroutine(ActivateParticleSystemWithDelay(smashGroundPS, smashGroundDelay));
+
+        jumpAttacking = true;
+        StartCoroutine(ResetBool(jumpAttacking, 4f));
+
+
+        StartCoroutine(ResetPos(4f));
+    }
+
+    public void GroundSlash(){
+        animator.SetTrigger("GroundSlash");
+        Invoke("InstantiateGroundSlash", 1.2f);
+        StartCoroutine(ActivateParticleSystemWithDelay(preInvocationPS, preInvocationDelay));
+        StartCoroutine(ActivateParticleSystemWithDelay(invocationPS, invocationDelay));
+
+        groundSlashing = true;
+        StartCoroutine(ResetBool(groundSlashing, 3.5f));
+
+        StartCoroutine(ResetPos(3.5f));
     }
 
     private IEnumerator ResetBool (bool boolToReset, float delay = 0.1f){
@@ -169,5 +191,9 @@ public class AnimatorController : MonoBehaviour
         }
 
         obj.transform.localRotation = Quaternion.Lerp(obj.transform.rotation, rotation, 1);
+    }
+
+    private void Shake(){
+        impulseSource.GenerateImpulse(0.3f);
     }
 }
