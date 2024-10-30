@@ -8,17 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Magma2
-  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 2100000, guid: b2c766f432f0a9547892bf3a214dbdf6, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 24
   m_ValidKeywords:
   - _EMISSION
   m_InvalidKeywords:
-  - _FLIPBOOKBLENDING_OFF
+  - _FLIPBOOKBLENDING_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -28,15 +28,27 @@ Material:
     m_TexEnvs:
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: e84651fabf2c3c444b4c94761a307a0d, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e84651fabf2c3c444b4c94761a307a0d, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e84651fabf2c3c444b4c94761a307a0d, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _ColorMode: 0
+    - _Cull: 0
+    - _FlipbookBlending: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.44963932, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.44963932, b: 0, a: 1}
+    - _EmissionColor: {r: 14.550948, g: 4.7285495, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7270660644731695291
 MonoBehaviour:
