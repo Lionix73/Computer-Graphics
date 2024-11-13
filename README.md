@@ -4,7 +4,7 @@
 
 This is my final project for the Computer Graphics class, where I aimed to create three different effects: one inspired by the "ki charging" from Dragon Ball but with electric effects, a spell that casts a fiery slash leaving a trail, and finally, a ground slam that feels powerful.
 
-
+https://github.com/user-attachments/assets/07ce4aa4-294a-4797-beb3-34f3f66ff057
 
 ### Power Charge
 
