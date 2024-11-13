@@ -1,9 +1,249 @@
-Here’s an enhanced English version of your README file with a more polished and professional tone:
-
----
-
 # Computer Graphics
 
+## Final Demo Shaders
+
+This is my final project for the Computer Graphics class, where I aimed to create three different effects: one inspired by the "ki charging" from Dragon Ball but with electric effects, a spell that casts a fiery slash leaving a trail, and finally, a ground slam that feels powerful.
+
+
+
+### Power Charge
+
+In brief, this effect relies on four main components: the ground effect, created using a concave 3D plane model and a texture shader; particle effects, including dust and small electric sparks; a hand-drawn electricity flipbook; and lightning bolts generated via script. The script creates start and end points for a line renderer, adding randomness and noise to simulate a lightning bolt.
+
+![image](https://github.com/user-attachments/assets/75f2c319-a00c-4bae-9f8e-fc6c580daf63)
+
+![image](https://github.com/user-attachments/assets/77c78704-6c3a-4b26-b28a-b277099cef27)
+
+![image](https://github.com/user-attachments/assets/38e6465c-0e0d-4c72-bf3c-962f8288bb15)
+
+**Lightning Script:**
+```C#
+void Start()
+    {
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
+        lineRenderer.widthMultiplier = 0.1f;
+        lineRenderer.positionCount = pointCount;
+        lineRenderer.material = material;
+        
+
+        StartCoroutine(ToggleLightning());
+    }
+
+    void Update()
+    {
+        UpdateThickness(thickness);
+    }
+
+    private IEnumerator ToggleLightning()
+    {
+        while (true)
+        {
+            lineRenderer.enabled = !lineRenderer.enabled;
+
+            if (lineRenderer.enabled)
+            {
+                UpdateLightningPositions();
+            }
+
+            yield return new WaitForSeconds(toggleInterval);
+        }
+    }
+
+    private void UpdateLightningPositions()
+    {
+        lineRenderer.SetPosition(0, startPoint.transform.position);
+        lineRenderer.SetPosition(pointCount - 1, endPoint.transform.position);
+
+        step = (endPoint.transform.position - startPoint.transform.position) / (pointCount - 1);
+
+        for (int i = 1; i < pointCount - 1; i++)
+        {
+            Vector3 randomOffset = new Vector3(
+                Random.Range(-randomness, randomness),
+                Random.Range(-randomness, randomness),
+                Random.Range(-randomness, randomness)
+            );
+            lineRenderer.SetPosition(i, startPoint.transform.position + step * i + randomOffset);
+        }
+    }
+
+    private void UpdateThickness(float value)
+    {
+        lineRenderer.widthMultiplier = value;
+    }
+```
+
+### Fire Spell
+
+The fire spell has two parts: the "pre-cast" phase, where two particle systems work together—one for a flickering orb and others for smaller orbiting orbs to suggest spell summoning.
+
+![image](https://github.com/user-attachments/assets/9d9d6575-47e6-4965-8b62-d8db87c29632)
+
+The second phase, the invocation, uses three particle systems to add impact, with emissive trails or splashes of particles. The "Fire Slash" itself consists of two visual effects and a script. One visual effect generates a growing mesh for the slash that burns particles on the ground as it moves, giving the impression of scorched terrain. The other is a fire and smoke effect that leaves a trail. The script controls movement, drag, slowing over time, and invokes the fire slash.
+
+![image](https://github.com/user-attachments/assets/87ac8942-64be-46a4-a48f-1e0a9d3b53f7)
+
+![image](https://github.com/user-attachments/assets/ec450fe8-d328-49a5-bac1-8aba601d1b37)
+
+![image](https://github.com/user-attachments/assets/1df48003-1552-4568-8bf5-2491698fd053)
+
+![image](https://github.com/user-attachments/assets/676db50f-bfb0-48d6-a64e-7c2dd2edd6da)
+
+![image](https://github.com/user-attachments/assets/c8718953-c8e0-4d1a-8bed-21ee5e0d7fea)
+
+**Ground Slash Script**
+```C#
+void Start()
+    {
+        transform.position = new Vector3(transform.position.x, 0.0f, transform.position.z);
+        transform.rotation = Quaternion.Euler(0, 180, 0);
+
+        if(GetComponent<Rigidbody>() != null)
+        {
+            rb = GetComponent<Rigidbody>();
+            StartCoroutine(SlowDown());
+        }
+        else
+        {
+            rb = gameObject.AddComponent<Rigidbody>();
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if(!stopped)
+        {
+            RaycastHit hit;
+            Vector3 distance = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+            Debug.DrawRay(distance, transform.TransformDirection(-Vector3.up * detectingDistance), Color.red);
+            if(Physics.Raycast(distance, transform.TransformDirection(-Vector3.up * detectingDistance), out hit, detectingDistance))
+            {
+                transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+            }
+            else{
+                transform.position = new Vector3(transform.position.x, 0.0f, transform.position.z);
+            }
+
+            Destroy(gameObject, destroyDelay);
+        }
+    }
+```
+
+### Ground Slam
+
+This effect involves three stages. The first is a small feedback for the ground slam jump, generating a shockwave with particles and smoke to show the jump’s impact on the surroundings.
+
+![image](https://github.com/user-attachments/assets/fbb0d0be-400a-491b-b13b-b4e00d32a692)
+
+The second part is a Visual Graph that leaves a trail of red loops following a transform.
+
+![image](https://github.com/user-attachments/assets/fd995874-42a3-476c-8e2c-9adc954a1d38)
+
+![image](https://github.com/user-attachments/assets/75c58d8f-ca33-49c6-9259-cbef684bc156)
+
+![image](https://github.com/user-attachments/assets/d312b68f-bc14-4bd9-a860-237db9caeca7)
+
+Finally, the slam effect itself combines multiple effects: three crack sprites and ground effects, two particle effects for brightness with static particles that appear and disappear, two emissive lava splash effects, a debris particle effect for flying rocks, a smoke particle effect, a custom mesh particle effect that makes it look like the "earth" is rising for extra impact, and an animated sphere shader creating a shockwave similar to an explosion.
+
+![image](https://github.com/user-attachments/assets/102276a4-948a-48ef-85a8-0cb5f3b81f6f)
+
+![image](https://github.com/user-attachments/assets/5cb6a965-bb24-4e4b-bcb5-f3dd858a5ff8)
+
+![image](https://github.com/user-attachments/assets/b6ad5f7a-d5b7-462f-aefc-1241c525ae5d)
+
+![image](https://github.com/user-attachments/assets/f23647b5-5a0d-407c-8cf0-c85bc404172d)
+
+
+### VFX Controller and Cinemachine
+
+To manage and synchronize these effects, I used a script. Although this isn’t the best way to animate VFX (ideally, I would have used a director with animations), I employed tricks such as changing effect layers to make them invisible with timed delays, and coroutines that activate and deactivate game objects with set delays. Additionally, I used Cinemachine to make perspective and camera changes easier, adding shake effects to some effects to enhance their impact.
+
+**VFX Controller**
+```C#
+void Update()
+    {
+        smashGroundPS.transform.position = new Vector3(player.transform.position.x, 0, player.transform.position.z);
+        invocationPS.transform.position = invocationPoint.position;
+        preInvocationPS.transform.position = invocationPoint.position;
+
+        if (animator != null){
+            if (Input.GetKeyDown(KeyCode.Alpha1) && !poweringUp && !jumpAttacking && !groundSlashing)
+            {
+                PowerUp();
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && !jumpAttacking && !groundSlashing && !poweringUp) 
+            {
+                JumpAttack();
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && !groundSlashing && !jumpAttacking && !poweringUp)
+            {
+                GroundSlash();
+            }
+        }
+    }
+
+    public void PowerUp(){
+        animator.SetTrigger("PowerUp");
+        powerUpEffect.Play();
+
+        Invoke("Shake", initialDelayPowerUp);
+
+        StartCoroutine(ChangeLayerWithDelay(electricVFX, initialDelayPowerUp, durationPowerUp));
+        StartCoroutine(ActivateParticleSystemWithDelay(electricPS, initialDelayPowerUp));
+
+        poweringUp = true;
+        StartCoroutine(ResetBool(poweringUp, 3f));
+
+        StartCoroutine(ResetPos(3f));
+    }
+
+    public void JumpAttack(){
+        animator.SetTrigger("JumpAttack");
+        LightningTrailVFX.Play();
+
+        Invoke("Shake", smashGroundDelay);
+
+        StartCoroutine(ActivateParticleSystemWithDelay(jumpShockWavePS, 0.6f));
+        StartCoroutine(ActivateWithDelay(FireballShockWaveVFX, smashGroundDelay, 0.7f));
+        StartCoroutine(ActivateParticleSystemWithDelay(smashGroundPS, smashGroundDelay));
+
+        jumpAttacking = true;
+        StartCoroutine(ResetBool(jumpAttacking, 4f));
+
+
+        StartCoroutine(ResetPos(4f));
+    }
+
+    public void GroundSlash(){
+        animator.SetTrigger("GroundSlash");
+        Invoke("InstantiateGroundSlash", 1.2f);
+        StartCoroutine(ActivateParticleSystemWithDelay(preInvocationPS, preInvocationDelay));
+        StartCoroutine(ActivateParticleSystemWithDelay(invocationPS, invocationDelay));
+
+        groundSlashing = true;
+        StartCoroutine(ResetBool(groundSlashing, 3.5f));
+
+        StartCoroutine(ResetPos(3.5f));
+    }
+```
+
+**Camera Controller**
+```C#
+void Start()
+    {
+        button1.onClick.AddListener(() => SwitchCamera(camera1));
+        button2.onClick.AddListener(() => SwitchCamera(camera2));
+        button3.onClick.AddListener(() => SwitchCamera(camera3));
+    }
+
+    void SwitchCamera(CinemachineVirtualCamera activeCamera)
+    {
+        camera1.gameObject.SetActive(camera1 == activeCamera);
+        camera2.gameObject.SetActive(camera2 == activeCamera);
+        camera3.gameObject.SetActive(camera3 == activeCamera);
+    }
+```
+ 
 ## Group Exercise 4 (Solo Effort Too ._.)
 ### Shader Exploration
 
